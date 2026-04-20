@@ -1,0 +1,6892 @@
+{
+  "report": {
+    "start": "2026-04-16T00:00:00Z",
+    "end": "2026-04-17T23:59:59Z",
+    "production_line": {
+      "id": "line_001",
+      "name": "Packaging Line 1",
+      "capacity": 40
+    },
+    "summary": {
+      "total_products": 47512,
+      "average_speed_ppm": 35.27,
+      "average_performance": 0.8818,
+      "time_running_minutes": 1347,
+      "time_in_downtime_minutes": 333,
+      "time_stopped_minutes": 1200
+    },
+    "timeline": [
+      {
+        "start": "2026-04-16T00:00:00Z",
+        "end": "2026-04-16T06:00:00Z",
+        "status": "Stopped",
+        "downtime_event_id": null
+      },
+      {
+        "start": "2026-04-16T06:00:00Z",
+        "end": "2026-04-16T09:14:00Z",
+        "status": "Running",
+        "downtime_event_id": null
+      },
+      {
+        "start": "2026-04-16T09:14:00Z",
+        "end": "2026-04-16T12:18:00Z",
+        "status": "In Downtime",
+        "downtime_event_id": "dt_001"
+      },
+      {
+        "start": "2026-04-16T12:18:00Z",
+        "end": "2026-04-16T14:30:00Z",
+        "status": "Running",
+        "downtime_event_id": null
+      },
+      {
+        "start": "2026-04-16T14:30:00Z",
+        "end": "2026-04-16T15:53:00Z",
+        "status": "In Downtime",
+        "downtime_event_id": "dt_002"
+      },
+      {
+        "start": "2026-04-16T15:53:00Z",
+        "end": "2026-04-16T20:00:00Z",
+        "status": "Running",
+        "downtime_event_id": null
+      },
+      {
+        "start": "2026-04-16T20:00:00Z",
+        "end": "2026-04-17T06:00:00Z",
+        "status": "Stopped",
+        "downtime_event_id": null
+      },
+      {
+        "start": "2026-04-17T06:00:00Z",
+        "end": "2026-04-17T08:45:00Z",
+        "status": "Running",
+        "downtime_event_id": null
+      },
+      {
+        "start": "2026-04-17T08:45:00Z",
+        "end": "2026-04-17T09:30:00Z",
+        "status": "In Downtime",
+        "downtime_event_id": "dt_002"
+      },
+      {
+        "start": "2026-04-17T09:30:00Z",
+        "end": "2026-04-17T13:00:00Z",
+        "status": "Running",
+        "downtime_event_id": null
+      },
+      {
+        "start": "2026-04-17T13:00:00Z",
+        "end": "2026-04-17T13:06:00Z",
+        "status": "In Downtime",
+        "downtime_event_id": "dt_003"
+      },
+      {
+        "start": "2026-04-17T13:06:00Z",
+        "end": "2026-04-17T14:45:00Z",
+        "status": "Running",
+        "downtime_event_id": null
+      },
+      {
+        "start": "2026-04-17T14:45:00Z",
+        "end": "2026-04-17T14:51:00Z",
+        "status": "In Downtime",
+        "downtime_event_id": "dt_003"
+      },
+      {
+        "start": "2026-04-17T14:51:00Z",
+        "end": "2026-04-17T16:20:00Z",
+        "status": "Running",
+        "downtime_event_id": null
+      },
+      {
+        "start": "2026-04-17T16:20:00Z",
+        "end": "2026-04-17T16:24:00Z",
+        "status": "In Downtime",
+        "downtime_event_id": "dt_003"
+      },
+      {
+        "start": "2026-04-17T16:24:00Z",
+        "end": "2026-04-17T18:00:00Z",
+        "status": "Running",
+        "downtime_event_id": null
+      },
+      {
+        "start": "2026-04-17T18:00:00Z",
+        "end": "2026-04-17T18:05:00Z",
+        "status": "In Downtime",
+        "downtime_event_id": "dt_003"
+      },
+      {
+        "start": "2026-04-17T18:05:00Z",
+        "end": "2026-04-17T20:00:00Z",
+        "status": "Running",
+        "downtime_event_id": null
+      },
+      {
+        "start": "2026-04-17T20:00:00Z",
+        "end": "2026-04-18T00:00:00Z",
+        "status": "Stopped",
+        "downtime_event_id": null
+      }
+    ],
+    "performance_series": [
+      {
+        "timestamp": "2026-04-16T06:00:00Z",
+        "speed_ppm": 23.9,
+        "performance": 0.5975
+      },
+      {
+        "timestamp": "2026-04-16T06:01:00Z",
+        "speed_ppm": 25.5,
+        "performance": 0.6375
+      },
+      {
+        "timestamp": "2026-04-16T06:02:00Z",
+        "speed_ppm": 27.1,
+        "performance": 0.6775
+      },
+      {
+        "timestamp": "2026-04-16T06:03:00Z",
+        "speed_ppm": 29.2,
+        "performance": 0.73
+      },
+      {
+        "timestamp": "2026-04-16T06:04:00Z",
+        "speed_ppm": 30.3,
+        "performance": 0.7575
+      },
+      {
+        "timestamp": "2026-04-16T06:05:00Z",
+        "speed_ppm": 31.3,
+        "performance": 0.7825
+      },
+      {
+        "timestamp": "2026-04-16T06:06:00Z",
+        "speed_ppm": 33.8,
+        "performance": 0.845
+      },
+      {
+        "timestamp": "2026-04-16T06:07:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-16T06:08:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-16T06:09:00Z",
+        "speed_ppm": 38.5,
+        "performance": 0.9625
+      },
+      {
+        "timestamp": "2026-04-16T06:10:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-16T06:11:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-16T06:12:00Z",
+        "speed_ppm": 36.4,
+        "performance": 0.91
+      },
+      {
+        "timestamp": "2026-04-16T06:13:00Z",
+        "speed_ppm": 36.2,
+        "performance": 0.905
+      },
+      {
+        "timestamp": "2026-04-16T06:14:00Z",
+        "speed_ppm": 38.6,
+        "performance": 0.965
+      },
+      {
+        "timestamp": "2026-04-16T06:15:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-16T06:16:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-16T06:17:00Z",
+        "speed_ppm": 35.9,
+        "performance": 0.8975
+      },
+      {
+        "timestamp": "2026-04-16T06:18:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-16T06:19:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-16T06:20:00Z",
+        "speed_ppm": 37.6,
+        "performance": 0.94
+      },
+      {
+        "timestamp": "2026-04-16T06:21:00Z",
+        "speed_ppm": 38.0,
+        "performance": 0.95
+      },
+      {
+        "timestamp": "2026-04-16T06:22:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-16T06:23:00Z",
+        "speed_ppm": 36.2,
+        "performance": 0.905
+      },
+      {
+        "timestamp": "2026-04-16T06:24:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-16T06:25:00Z",
+        "speed_ppm": 32.7,
+        "performance": 0.8175
+      },
+      {
+        "timestamp": "2026-04-16T06:26:00Z",
+        "speed_ppm": 34.1,
+        "performance": 0.8525
+      },
+      {
+        "timestamp": "2026-04-16T06:27:00Z",
+        "speed_ppm": 34.4,
+        "performance": 0.86
+      },
+      {
+        "timestamp": "2026-04-16T06:28:00Z",
+        "speed_ppm": 33.3,
+        "performance": 0.8325
+      },
+      {
+        "timestamp": "2026-04-16T06:29:00Z",
+        "speed_ppm": 35.7,
+        "performance": 0.8925
+      },
+      {
+        "timestamp": "2026-04-16T06:30:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-16T06:31:00Z",
+        "speed_ppm": 38.8,
+        "performance": 0.97
+      },
+      {
+        "timestamp": "2026-04-16T06:32:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-16T06:33:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-16T06:34:00Z",
+        "speed_ppm": 32.7,
+        "performance": 0.8175
+      },
+      {
+        "timestamp": "2026-04-16T06:35:00Z",
+        "speed_ppm": 37.7,
+        "performance": 0.9425
+      },
+      {
+        "timestamp": "2026-04-16T06:36:00Z",
+        "speed_ppm": 35.8,
+        "performance": 0.895
+      },
+      {
+        "timestamp": "2026-04-16T06:37:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-16T06:38:00Z",
+        "speed_ppm": 34.6,
+        "performance": 0.865
+      },
+      {
+        "timestamp": "2026-04-16T06:39:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-16T06:40:00Z",
+        "speed_ppm": 35.0,
+        "performance": 0.875
+      },
+      {
+        "timestamp": "2026-04-16T06:41:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-16T06:42:00Z",
+        "speed_ppm": 35.9,
+        "performance": 0.8975
+      },
+      {
+        "timestamp": "2026-04-16T06:43:00Z",
+        "speed_ppm": 36.2,
+        "performance": 0.905
+      },
+      {
+        "timestamp": "2026-04-16T06:44:00Z",
+        "speed_ppm": 34.4,
+        "performance": 0.86
+      },
+      {
+        "timestamp": "2026-04-16T06:45:00Z",
+        "speed_ppm": 35.0,
+        "performance": 0.875
+      },
+      {
+        "timestamp": "2026-04-16T06:46:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-16T06:47:00Z",
+        "speed_ppm": 33.8,
+        "performance": 0.845
+      },
+      {
+        "timestamp": "2026-04-16T06:48:00Z",
+        "speed_ppm": 38.6,
+        "performance": 0.965
+      },
+      {
+        "timestamp": "2026-04-16T06:49:00Z",
+        "speed_ppm": 33.1,
+        "performance": 0.8275
+      },
+      {
+        "timestamp": "2026-04-16T06:50:00Z",
+        "speed_ppm": 32.8,
+        "performance": 0.82
+      },
+      {
+        "timestamp": "2026-04-16T06:51:00Z",
+        "speed_ppm": 34.7,
+        "performance": 0.8675
+      },
+      {
+        "timestamp": "2026-04-16T06:52:00Z",
+        "speed_ppm": 32.0,
+        "performance": 0.8
+      },
+      {
+        "timestamp": "2026-04-16T06:53:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-16T06:54:00Z",
+        "speed_ppm": 38.7,
+        "performance": 0.9675
+      },
+      {
+        "timestamp": "2026-04-16T06:55:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-16T06:56:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-16T06:57:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-16T06:58:00Z",
+        "speed_ppm": 33.0,
+        "performance": 0.825
+      },
+      {
+        "timestamp": "2026-04-16T06:59:00Z",
+        "speed_ppm": 38.7,
+        "performance": 0.9675
+      },
+      {
+        "timestamp": "2026-04-16T07:00:00Z",
+        "speed_ppm": 38.0,
+        "performance": 0.95
+      },
+      {
+        "timestamp": "2026-04-16T07:01:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-16T07:02:00Z",
+        "speed_ppm": 38.6,
+        "performance": 0.965
+      },
+      {
+        "timestamp": "2026-04-16T07:03:00Z",
+        "speed_ppm": 36.3,
+        "performance": 0.9075
+      },
+      {
+        "timestamp": "2026-04-16T07:04:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-16T07:05:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-16T07:06:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-16T07:07:00Z",
+        "speed_ppm": 34.7,
+        "performance": 0.8675
+      },
+      {
+        "timestamp": "2026-04-16T07:08:00Z",
+        "speed_ppm": 33.8,
+        "performance": 0.845
+      },
+      {
+        "timestamp": "2026-04-16T07:09:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-16T07:10:00Z",
+        "speed_ppm": 35.6,
+        "performance": 0.89
+      },
+      {
+        "timestamp": "2026-04-16T07:11:00Z",
+        "speed_ppm": 38.8,
+        "performance": 0.97
+      },
+      {
+        "timestamp": "2026-04-16T07:12:00Z",
+        "speed_ppm": 33.1,
+        "performance": 0.8275
+      },
+      {
+        "timestamp": "2026-04-16T07:13:00Z",
+        "speed_ppm": 37.4,
+        "performance": 0.935
+      },
+      {
+        "timestamp": "2026-04-16T07:14:00Z",
+        "speed_ppm": 37.8,
+        "performance": 0.945
+      },
+      {
+        "timestamp": "2026-04-16T07:15:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-16T07:16:00Z",
+        "speed_ppm": 34.8,
+        "performance": 0.87
+      },
+      {
+        "timestamp": "2026-04-16T07:17:00Z",
+        "speed_ppm": 33.7,
+        "performance": 0.8425
+      },
+      {
+        "timestamp": "2026-04-16T07:18:00Z",
+        "speed_ppm": 36.0,
+        "performance": 0.9
+      },
+      {
+        "timestamp": "2026-04-16T07:19:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-16T07:20:00Z",
+        "speed_ppm": 38.5,
+        "performance": 0.9625
+      },
+      {
+        "timestamp": "2026-04-16T07:21:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-16T07:22:00Z",
+        "speed_ppm": 33.6,
+        "performance": 0.84
+      },
+      {
+        "timestamp": "2026-04-16T07:23:00Z",
+        "speed_ppm": 36.8,
+        "performance": 0.92
+      },
+      {
+        "timestamp": "2026-04-16T07:24:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-16T07:25:00Z",
+        "speed_ppm": 36.8,
+        "performance": 0.92
+      },
+      {
+        "timestamp": "2026-04-16T07:26:00Z",
+        "speed_ppm": 35.0,
+        "performance": 0.875
+      },
+      {
+        "timestamp": "2026-04-16T07:27:00Z",
+        "speed_ppm": 32.7,
+        "performance": 0.8175
+      },
+      {
+        "timestamp": "2026-04-16T07:28:00Z",
+        "speed_ppm": 34.1,
+        "performance": 0.8525
+      },
+      {
+        "timestamp": "2026-04-16T07:29:00Z",
+        "speed_ppm": 33.3,
+        "performance": 0.8325
+      },
+      {
+        "timestamp": "2026-04-16T07:30:00Z",
+        "speed_ppm": 37.9,
+        "performance": 0.9475
+      },
+      {
+        "timestamp": "2026-04-16T07:31:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-16T07:32:00Z",
+        "speed_ppm": 37.7,
+        "performance": 0.9425
+      },
+      {
+        "timestamp": "2026-04-16T07:33:00Z",
+        "speed_ppm": 35.6,
+        "performance": 0.89
+      },
+      {
+        "timestamp": "2026-04-16T07:34:00Z",
+        "speed_ppm": 34.6,
+        "performance": 0.865
+      },
+      {
+        "timestamp": "2026-04-16T07:35:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-16T07:36:00Z",
+        "speed_ppm": 39.1,
+        "performance": 0.9775
+      },
+      {
+        "timestamp": "2026-04-16T07:37:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-16T07:38:00Z",
+        "speed_ppm": 38.0,
+        "performance": 0.95
+      },
+      {
+        "timestamp": "2026-04-16T07:39:00Z",
+        "speed_ppm": 35.8,
+        "performance": 0.895
+      },
+      {
+        "timestamp": "2026-04-16T07:40:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-16T07:41:00Z",
+        "speed_ppm": 38.7,
+        "performance": 0.9675
+      },
+      {
+        "timestamp": "2026-04-16T07:42:00Z",
+        "speed_ppm": 35.9,
+        "performance": 0.8975
+      },
+      {
+        "timestamp": "2026-04-16T07:43:00Z",
+        "speed_ppm": 32.6,
+        "performance": 0.815
+      },
+      {
+        "timestamp": "2026-04-16T07:44:00Z",
+        "speed_ppm": 39.5,
+        "performance": 0.9875
+      },
+      {
+        "timestamp": "2026-04-16T07:45:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-16T07:46:00Z",
+        "speed_ppm": 38.2,
+        "performance": 0.955
+      },
+      {
+        "timestamp": "2026-04-16T07:47:00Z",
+        "speed_ppm": 34.6,
+        "performance": 0.865
+      },
+      {
+        "timestamp": "2026-04-16T07:48:00Z",
+        "speed_ppm": 35.7,
+        "performance": 0.8925
+      },
+      {
+        "timestamp": "2026-04-16T07:49:00Z",
+        "speed_ppm": 38.9,
+        "performance": 0.9725
+      },
+      {
+        "timestamp": "2026-04-16T07:50:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-16T07:51:00Z",
+        "speed_ppm": 34.8,
+        "performance": 0.87
+      },
+      {
+        "timestamp": "2026-04-16T07:52:00Z",
+        "speed_ppm": 39.2,
+        "performance": 0.98
+      },
+      {
+        "timestamp": "2026-04-16T07:53:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-16T07:54:00Z",
+        "speed_ppm": 33.3,
+        "performance": 0.8325
+      },
+      {
+        "timestamp": "2026-04-16T07:55:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-16T07:56:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-16T07:57:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-16T07:58:00Z",
+        "speed_ppm": 36.0,
+        "performance": 0.9
+      },
+      {
+        "timestamp": "2026-04-16T07:59:00Z",
+        "speed_ppm": 38.3,
+        "performance": 0.9575
+      },
+      {
+        "timestamp": "2026-04-16T08:00:00Z",
+        "speed_ppm": 33.5,
+        "performance": 0.8375
+      },
+      {
+        "timestamp": "2026-04-16T08:01:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-16T08:02:00Z",
+        "speed_ppm": 35.0,
+        "performance": 0.875
+      },
+      {
+        "timestamp": "2026-04-16T08:03:00Z",
+        "speed_ppm": 35.0,
+        "performance": 0.875
+      },
+      {
+        "timestamp": "2026-04-16T08:04:00Z",
+        "speed_ppm": 36.0,
+        "performance": 0.9
+      },
+      {
+        "timestamp": "2026-04-16T08:05:00Z",
+        "speed_ppm": 35.9,
+        "performance": 0.8975
+      },
+      {
+        "timestamp": "2026-04-16T08:06:00Z",
+        "speed_ppm": 36.2,
+        "performance": 0.905
+      },
+      {
+        "timestamp": "2026-04-16T08:07:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-16T08:08:00Z",
+        "speed_ppm": 33.6,
+        "performance": 0.84
+      },
+      {
+        "timestamp": "2026-04-16T08:09:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-16T08:10:00Z",
+        "speed_ppm": 34.7,
+        "performance": 0.8675
+      },
+      {
+        "timestamp": "2026-04-16T08:11:00Z",
+        "speed_ppm": 35.4,
+        "performance": 0.885
+      },
+      {
+        "timestamp": "2026-04-16T08:12:00Z",
+        "speed_ppm": 39.0,
+        "performance": 0.975
+      },
+      {
+        "timestamp": "2026-04-16T08:13:00Z",
+        "speed_ppm": 34.1,
+        "performance": 0.8525
+      },
+      {
+        "timestamp": "2026-04-16T08:14:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-16T08:15:00Z",
+        "speed_ppm": 37.7,
+        "performance": 0.9425
+      },
+      {
+        "timestamp": "2026-04-16T08:16:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-16T08:17:00Z",
+        "speed_ppm": 37.8,
+        "performance": 0.945
+      },
+      {
+        "timestamp": "2026-04-16T08:18:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-16T08:19:00Z",
+        "speed_ppm": 32.8,
+        "performance": 0.82
+      },
+      {
+        "timestamp": "2026-04-16T08:20:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-16T08:21:00Z",
+        "speed_ppm": 39.1,
+        "performance": 0.9775
+      },
+      {
+        "timestamp": "2026-04-16T08:22:00Z",
+        "speed_ppm": 33.8,
+        "performance": 0.845
+      },
+      {
+        "timestamp": "2026-04-16T08:23:00Z",
+        "speed_ppm": 36.3,
+        "performance": 0.9075
+      },
+      {
+        "timestamp": "2026-04-16T08:24:00Z",
+        "speed_ppm": 33.8,
+        "performance": 0.845
+      },
+      {
+        "timestamp": "2026-04-16T08:25:00Z",
+        "speed_ppm": 33.5,
+        "performance": 0.8375
+      },
+      {
+        "timestamp": "2026-04-16T08:26:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-16T08:27:00Z",
+        "speed_ppm": 38.8,
+        "performance": 0.97
+      },
+      {
+        "timestamp": "2026-04-16T08:28:00Z",
+        "speed_ppm": 38.3,
+        "performance": 0.9575
+      },
+      {
+        "timestamp": "2026-04-16T08:29:00Z",
+        "speed_ppm": 34.7,
+        "performance": 0.8675
+      },
+      {
+        "timestamp": "2026-04-16T08:30:00Z",
+        "speed_ppm": 32.9,
+        "performance": 0.8225
+      },
+      {
+        "timestamp": "2026-04-16T08:31:00Z",
+        "speed_ppm": 33.7,
+        "performance": 0.8425
+      },
+      {
+        "timestamp": "2026-04-16T08:32:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-16T08:33:00Z",
+        "speed_ppm": 32.7,
+        "performance": 0.8175
+      },
+      {
+        "timestamp": "2026-04-16T08:34:00Z",
+        "speed_ppm": 34.1,
+        "performance": 0.8525
+      },
+      {
+        "timestamp": "2026-04-16T08:35:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-16T08:36:00Z",
+        "speed_ppm": 37.6,
+        "performance": 0.94
+      },
+      {
+        "timestamp": "2026-04-16T08:37:00Z",
+        "speed_ppm": 33.4,
+        "performance": 0.835
+      },
+      {
+        "timestamp": "2026-04-16T08:38:00Z",
+        "speed_ppm": 35.4,
+        "performance": 0.885
+      },
+      {
+        "timestamp": "2026-04-16T08:39:00Z",
+        "speed_ppm": 37.4,
+        "performance": 0.935
+      },
+      {
+        "timestamp": "2026-04-16T08:40:00Z",
+        "speed_ppm": 38.3,
+        "performance": 0.9575
+      },
+      {
+        "timestamp": "2026-04-16T08:41:00Z",
+        "speed_ppm": 33.8,
+        "performance": 0.845
+      },
+      {
+        "timestamp": "2026-04-16T08:42:00Z",
+        "speed_ppm": 37.9,
+        "performance": 0.9475
+      },
+      {
+        "timestamp": "2026-04-16T08:43:00Z",
+        "speed_ppm": 36.2,
+        "performance": 0.905
+      },
+      {
+        "timestamp": "2026-04-16T08:44:00Z",
+        "speed_ppm": 34.6,
+        "performance": 0.865
+      },
+      {
+        "timestamp": "2026-04-16T08:45:00Z",
+        "speed_ppm": 38.2,
+        "performance": 0.955
+      },
+      {
+        "timestamp": "2026-04-16T08:46:00Z",
+        "speed_ppm": 37.7,
+        "performance": 0.9425
+      },
+      {
+        "timestamp": "2026-04-16T08:47:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-16T08:48:00Z",
+        "speed_ppm": 35.6,
+        "performance": 0.89
+      },
+      {
+        "timestamp": "2026-04-16T08:49:00Z",
+        "speed_ppm": 37.6,
+        "performance": 0.94
+      },
+      {
+        "timestamp": "2026-04-16T08:50:00Z",
+        "speed_ppm": 37.6,
+        "performance": 0.94
+      },
+      {
+        "timestamp": "2026-04-16T08:51:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-16T08:52:00Z",
+        "speed_ppm": 38.3,
+        "performance": 0.9575
+      },
+      {
+        "timestamp": "2026-04-16T08:53:00Z",
+        "speed_ppm": 37.4,
+        "performance": 0.935
+      },
+      {
+        "timestamp": "2026-04-16T08:54:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-16T08:55:00Z",
+        "speed_ppm": 35.0,
+        "performance": 0.875
+      },
+      {
+        "timestamp": "2026-04-16T08:56:00Z",
+        "speed_ppm": 33.1,
+        "performance": 0.8275
+      },
+      {
+        "timestamp": "2026-04-16T08:57:00Z",
+        "speed_ppm": 38.4,
+        "performance": 0.96
+      },
+      {
+        "timestamp": "2026-04-16T08:58:00Z",
+        "speed_ppm": 38.5,
+        "performance": 0.9625
+      },
+      {
+        "timestamp": "2026-04-16T08:59:00Z",
+        "speed_ppm": 35.9,
+        "performance": 0.8975
+      },
+      {
+        "timestamp": "2026-04-16T09:00:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-16T09:01:00Z",
+        "speed_ppm": 33.2,
+        "performance": 0.83
+      },
+      {
+        "timestamp": "2026-04-16T09:02:00Z",
+        "speed_ppm": 39.2,
+        "performance": 0.98
+      },
+      {
+        "timestamp": "2026-04-16T09:03:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-16T09:04:00Z",
+        "speed_ppm": 32.7,
+        "performance": 0.8175
+      },
+      {
+        "timestamp": "2026-04-16T09:05:00Z",
+        "speed_ppm": 38.7,
+        "performance": 0.9675
+      },
+      {
+        "timestamp": "2026-04-16T09:06:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-16T09:07:00Z",
+        "speed_ppm": 35.8,
+        "performance": 0.895
+      },
+      {
+        "timestamp": "2026-04-16T09:08:00Z",
+        "speed_ppm": 33.1,
+        "performance": 0.8275
+      },
+      {
+        "timestamp": "2026-04-16T09:09:00Z",
+        "speed_ppm": 32.0,
+        "performance": 0.8
+      },
+      {
+        "timestamp": "2026-04-16T09:10:00Z",
+        "speed_ppm": 30.1,
+        "performance": 0.7525
+      },
+      {
+        "timestamp": "2026-04-16T09:11:00Z",
+        "speed_ppm": 28.6,
+        "performance": 0.715
+      },
+      {
+        "timestamp": "2026-04-16T09:12:00Z",
+        "speed_ppm": 27.2,
+        "performance": 0.68
+      },
+      {
+        "timestamp": "2026-04-16T09:13:00Z",
+        "speed_ppm": 25.6,
+        "performance": 0.64
+      },
+      {
+        "timestamp": "2026-04-16T12:18:00Z",
+        "speed_ppm": 24.6,
+        "performance": 0.615
+      },
+      {
+        "timestamp": "2026-04-16T12:19:00Z",
+        "speed_ppm": 25.3,
+        "performance": 0.6325
+      },
+      {
+        "timestamp": "2026-04-16T12:20:00Z",
+        "speed_ppm": 27.0,
+        "performance": 0.675
+      },
+      {
+        "timestamp": "2026-04-16T12:21:00Z",
+        "speed_ppm": 28.0,
+        "performance": 0.7
+      },
+      {
+        "timestamp": "2026-04-16T12:22:00Z",
+        "speed_ppm": 30.2,
+        "performance": 0.755
+      },
+      {
+        "timestamp": "2026-04-16T12:23:00Z",
+        "speed_ppm": 31.6,
+        "performance": 0.79
+      },
+      {
+        "timestamp": "2026-04-16T12:24:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-16T12:25:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-16T12:26:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-16T12:27:00Z",
+        "speed_ppm": 38.8,
+        "performance": 0.97
+      },
+      {
+        "timestamp": "2026-04-16T12:28:00Z",
+        "speed_ppm": 37.8,
+        "performance": 0.945
+      },
+      {
+        "timestamp": "2026-04-16T12:29:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-16T12:30:00Z",
+        "speed_ppm": 34.9,
+        "performance": 0.8725
+      },
+      {
+        "timestamp": "2026-04-16T12:31:00Z",
+        "speed_ppm": 33.8,
+        "performance": 0.845
+      },
+      {
+        "timestamp": "2026-04-16T12:32:00Z",
+        "speed_ppm": 36.0,
+        "performance": 0.9
+      },
+      {
+        "timestamp": "2026-04-16T12:33:00Z",
+        "speed_ppm": 37.9,
+        "performance": 0.9475
+      },
+      {
+        "timestamp": "2026-04-16T12:34:00Z",
+        "speed_ppm": 36.3,
+        "performance": 0.9075
+      },
+      {
+        "timestamp": "2026-04-16T12:35:00Z",
+        "speed_ppm": 33.4,
+        "performance": 0.835
+      },
+      {
+        "timestamp": "2026-04-16T12:36:00Z",
+        "speed_ppm": 33.9,
+        "performance": 0.8475
+      },
+      {
+        "timestamp": "2026-04-16T12:37:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-16T12:38:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-16T12:39:00Z",
+        "speed_ppm": 35.8,
+        "performance": 0.895
+      },
+      {
+        "timestamp": "2026-04-16T12:40:00Z",
+        "speed_ppm": 38.3,
+        "performance": 0.9575
+      },
+      {
+        "timestamp": "2026-04-16T12:41:00Z",
+        "speed_ppm": 33.0,
+        "performance": 0.825
+      },
+      {
+        "timestamp": "2026-04-16T12:42:00Z",
+        "speed_ppm": 35.6,
+        "performance": 0.89
+      },
+      {
+        "timestamp": "2026-04-16T12:43:00Z",
+        "speed_ppm": 37.4,
+        "performance": 0.935
+      },
+      {
+        "timestamp": "2026-04-16T12:44:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-16T12:45:00Z",
+        "speed_ppm": 33.7,
+        "performance": 0.8425
+      },
+      {
+        "timestamp": "2026-04-16T12:46:00Z",
+        "speed_ppm": 33.0,
+        "performance": 0.825
+      },
+      {
+        "timestamp": "2026-04-16T12:47:00Z",
+        "speed_ppm": 38.5,
+        "performance": 0.9625
+      },
+      {
+        "timestamp": "2026-04-16T12:48:00Z",
+        "speed_ppm": 32.6,
+        "performance": 0.815
+      },
+      {
+        "timestamp": "2026-04-16T12:49:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-16T12:50:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-16T12:51:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-16T12:52:00Z",
+        "speed_ppm": 32.8,
+        "performance": 0.82
+      },
+      {
+        "timestamp": "2026-04-16T12:53:00Z",
+        "speed_ppm": 32.6,
+        "performance": 0.815
+      },
+      {
+        "timestamp": "2026-04-16T12:54:00Z",
+        "speed_ppm": 35.9,
+        "performance": 0.8975
+      },
+      {
+        "timestamp": "2026-04-16T12:55:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-16T12:56:00Z",
+        "speed_ppm": 33.1,
+        "performance": 0.8275
+      },
+      {
+        "timestamp": "2026-04-16T12:57:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-16T12:58:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-16T12:59:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-16T13:00:00Z",
+        "speed_ppm": 39.0,
+        "performance": 0.975
+      },
+      {
+        "timestamp": "2026-04-16T13:01:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-16T13:02:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-16T13:03:00Z",
+        "speed_ppm": 37.6,
+        "performance": 0.94
+      },
+      {
+        "timestamp": "2026-04-16T13:04:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-16T13:05:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-16T13:06:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-16T13:07:00Z",
+        "speed_ppm": 36.0,
+        "performance": 0.9
+      },
+      {
+        "timestamp": "2026-04-16T13:08:00Z",
+        "speed_ppm": 34.8,
+        "performance": 0.87
+      },
+      {
+        "timestamp": "2026-04-16T13:09:00Z",
+        "speed_ppm": 34.6,
+        "performance": 0.865
+      },
+      {
+        "timestamp": "2026-04-16T13:10:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-16T13:11:00Z",
+        "speed_ppm": 34.1,
+        "performance": 0.8525
+      },
+      {
+        "timestamp": "2026-04-16T13:12:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-16T13:13:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-16T13:14:00Z",
+        "speed_ppm": 35.8,
+        "performance": 0.895
+      },
+      {
+        "timestamp": "2026-04-16T13:15:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-16T13:16:00Z",
+        "speed_ppm": 37.6,
+        "performance": 0.94
+      },
+      {
+        "timestamp": "2026-04-16T13:17:00Z",
+        "speed_ppm": 37.6,
+        "performance": 0.94
+      },
+      {
+        "timestamp": "2026-04-16T13:18:00Z",
+        "speed_ppm": 37.4,
+        "performance": 0.935
+      },
+      {
+        "timestamp": "2026-04-16T13:19:00Z",
+        "speed_ppm": 34.9,
+        "performance": 0.8725
+      },
+      {
+        "timestamp": "2026-04-16T13:20:00Z",
+        "speed_ppm": 38.1,
+        "performance": 0.9525
+      },
+      {
+        "timestamp": "2026-04-16T13:21:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-16T13:22:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-16T13:23:00Z",
+        "speed_ppm": 33.9,
+        "performance": 0.8475
+      },
+      {
+        "timestamp": "2026-04-16T13:24:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-16T13:25:00Z",
+        "speed_ppm": 34.9,
+        "performance": 0.8725
+      },
+      {
+        "timestamp": "2026-04-16T13:26:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-16T13:27:00Z",
+        "speed_ppm": 35.8,
+        "performance": 0.895
+      },
+      {
+        "timestamp": "2026-04-16T13:28:00Z",
+        "speed_ppm": 33.5,
+        "performance": 0.8375
+      },
+      {
+        "timestamp": "2026-04-16T13:29:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-16T13:30:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-16T13:31:00Z",
+        "speed_ppm": 33.7,
+        "performance": 0.8425
+      },
+      {
+        "timestamp": "2026-04-16T13:32:00Z",
+        "speed_ppm": 36.0,
+        "performance": 0.9
+      },
+      {
+        "timestamp": "2026-04-16T13:33:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-16T13:34:00Z",
+        "speed_ppm": 34.8,
+        "performance": 0.87
+      },
+      {
+        "timestamp": "2026-04-16T13:35:00Z",
+        "speed_ppm": 36.8,
+        "performance": 0.92
+      },
+      {
+        "timestamp": "2026-04-16T13:36:00Z",
+        "speed_ppm": 37.8,
+        "performance": 0.945
+      },
+      {
+        "timestamp": "2026-04-16T13:37:00Z",
+        "speed_ppm": 33.1,
+        "performance": 0.8275
+      },
+      {
+        "timestamp": "2026-04-16T13:38:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-16T13:39:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-16T13:40:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-16T13:41:00Z",
+        "speed_ppm": 37.8,
+        "performance": 0.945
+      },
+      {
+        "timestamp": "2026-04-16T13:42:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-16T13:43:00Z",
+        "speed_ppm": 33.6,
+        "performance": 0.84
+      },
+      {
+        "timestamp": "2026-04-16T13:44:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-16T13:45:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-16T13:46:00Z",
+        "speed_ppm": 37.7,
+        "performance": 0.9425
+      },
+      {
+        "timestamp": "2026-04-16T13:47:00Z",
+        "speed_ppm": 37.9,
+        "performance": 0.9475
+      },
+      {
+        "timestamp": "2026-04-16T13:48:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-16T13:49:00Z",
+        "speed_ppm": 32.3,
+        "performance": 0.8075
+      },
+      {
+        "timestamp": "2026-04-16T13:50:00Z",
+        "speed_ppm": 32.7,
+        "performance": 0.8175
+      },
+      {
+        "timestamp": "2026-04-16T13:51:00Z",
+        "speed_ppm": 39.2,
+        "performance": 0.98
+      },
+      {
+        "timestamp": "2026-04-16T13:52:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-16T13:53:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-16T13:54:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-16T13:55:00Z",
+        "speed_ppm": 38.4,
+        "performance": 0.96
+      },
+      {
+        "timestamp": "2026-04-16T13:56:00Z",
+        "speed_ppm": 37.4,
+        "performance": 0.935
+      },
+      {
+        "timestamp": "2026-04-16T13:57:00Z",
+        "speed_ppm": 38.5,
+        "performance": 0.9625
+      },
+      {
+        "timestamp": "2026-04-16T13:58:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-16T13:59:00Z",
+        "speed_ppm": 36.0,
+        "performance": 0.9
+      },
+      {
+        "timestamp": "2026-04-16T14:00:00Z",
+        "speed_ppm": 35.4,
+        "performance": 0.885
+      },
+      {
+        "timestamp": "2026-04-16T14:01:00Z",
+        "speed_ppm": 32.7,
+        "performance": 0.8175
+      },
+      {
+        "timestamp": "2026-04-16T14:02:00Z",
+        "speed_ppm": 37.9,
+        "performance": 0.9475
+      },
+      {
+        "timestamp": "2026-04-16T14:03:00Z",
+        "speed_ppm": 36.3,
+        "performance": 0.9075
+      },
+      {
+        "timestamp": "2026-04-16T14:04:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-16T14:05:00Z",
+        "speed_ppm": 33.1,
+        "performance": 0.8275
+      },
+      {
+        "timestamp": "2026-04-16T14:06:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-16T14:07:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-16T14:08:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-16T14:09:00Z",
+        "speed_ppm": 38.8,
+        "performance": 0.97
+      },
+      {
+        "timestamp": "2026-04-16T14:10:00Z",
+        "speed_ppm": 33.6,
+        "performance": 0.84
+      },
+      {
+        "timestamp": "2026-04-16T14:11:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-16T14:12:00Z",
+        "speed_ppm": 36.4,
+        "performance": 0.91
+      },
+      {
+        "timestamp": "2026-04-16T14:13:00Z",
+        "speed_ppm": 38.0,
+        "performance": 0.95
+      },
+      {
+        "timestamp": "2026-04-16T14:14:00Z",
+        "speed_ppm": 34.1,
+        "performance": 0.8525
+      },
+      {
+        "timestamp": "2026-04-16T14:15:00Z",
+        "speed_ppm": 35.7,
+        "performance": 0.8925
+      },
+      {
+        "timestamp": "2026-04-16T14:16:00Z",
+        "speed_ppm": 38.0,
+        "performance": 0.95
+      },
+      {
+        "timestamp": "2026-04-16T14:17:00Z",
+        "speed_ppm": 32.5,
+        "performance": 0.8125
+      },
+      {
+        "timestamp": "2026-04-16T14:18:00Z",
+        "speed_ppm": 39.2,
+        "performance": 0.98
+      },
+      {
+        "timestamp": "2026-04-16T14:19:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-16T14:20:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-16T14:21:00Z",
+        "speed_ppm": 37.7,
+        "performance": 0.9425
+      },
+      {
+        "timestamp": "2026-04-16T14:22:00Z",
+        "speed_ppm": 35.9,
+        "performance": 0.8975
+      },
+      {
+        "timestamp": "2026-04-16T14:23:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-16T14:24:00Z",
+        "speed_ppm": 33.9,
+        "performance": 0.8475
+      },
+      {
+        "timestamp": "2026-04-16T14:25:00Z",
+        "speed_ppm": 32.2,
+        "performance": 0.805
+      },
+      {
+        "timestamp": "2026-04-16T14:26:00Z",
+        "speed_ppm": 30.2,
+        "performance": 0.755
+      },
+      {
+        "timestamp": "2026-04-16T14:27:00Z",
+        "speed_ppm": 28.4,
+        "performance": 0.71
+      },
+      {
+        "timestamp": "2026-04-16T14:28:00Z",
+        "speed_ppm": 26.7,
+        "performance": 0.6675
+      },
+      {
+        "timestamp": "2026-04-16T14:29:00Z",
+        "speed_ppm": 25.3,
+        "performance": 0.6325
+      },
+      {
+        "timestamp": "2026-04-16T15:53:00Z",
+        "speed_ppm": 23.5,
+        "performance": 0.5875
+      },
+      {
+        "timestamp": "2026-04-16T15:54:00Z",
+        "speed_ppm": 25.5,
+        "performance": 0.6375
+      },
+      {
+        "timestamp": "2026-04-16T15:55:00Z",
+        "speed_ppm": 27.2,
+        "performance": 0.68
+      },
+      {
+        "timestamp": "2026-04-16T15:56:00Z",
+        "speed_ppm": 28.4,
+        "performance": 0.71
+      },
+      {
+        "timestamp": "2026-04-16T15:57:00Z",
+        "speed_ppm": 30.3,
+        "performance": 0.7575
+      },
+      {
+        "timestamp": "2026-04-16T15:58:00Z",
+        "speed_ppm": 31.6,
+        "performance": 0.79
+      },
+      {
+        "timestamp": "2026-04-16T15:59:00Z",
+        "speed_ppm": 33.6,
+        "performance": 0.84
+      },
+      {
+        "timestamp": "2026-04-16T16:00:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-16T16:01:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-16T16:02:00Z",
+        "speed_ppm": 38.6,
+        "performance": 0.965
+      },
+      {
+        "timestamp": "2026-04-16T16:03:00Z",
+        "speed_ppm": 36.0,
+        "performance": 0.9
+      },
+      {
+        "timestamp": "2026-04-16T16:04:00Z",
+        "speed_ppm": 33.8,
+        "performance": 0.845
+      },
+      {
+        "timestamp": "2026-04-16T16:05:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-16T16:06:00Z",
+        "speed_ppm": 34.6,
+        "performance": 0.865
+      },
+      {
+        "timestamp": "2026-04-16T16:07:00Z",
+        "speed_ppm": 34.8,
+        "performance": 0.87
+      },
+      {
+        "timestamp": "2026-04-16T16:08:00Z",
+        "speed_ppm": 34.4,
+        "performance": 0.86
+      },
+      {
+        "timestamp": "2026-04-16T16:09:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-16T16:10:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-16T16:11:00Z",
+        "speed_ppm": 37.9,
+        "performance": 0.9475
+      },
+      {
+        "timestamp": "2026-04-16T16:12:00Z",
+        "speed_ppm": 33.3,
+        "performance": 0.8325
+      },
+      {
+        "timestamp": "2026-04-16T16:13:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-16T16:14:00Z",
+        "speed_ppm": 36.3,
+        "performance": 0.9075
+      },
+      {
+        "timestamp": "2026-04-16T16:15:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-16T16:16:00Z",
+        "speed_ppm": 33.2,
+        "performance": 0.83
+      },
+      {
+        "timestamp": "2026-04-16T16:17:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-16T16:18:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-16T16:19:00Z",
+        "speed_ppm": 33.1,
+        "performance": 0.8275
+      },
+      {
+        "timestamp": "2026-04-16T16:20:00Z",
+        "speed_ppm": 33.6,
+        "performance": 0.84
+      },
+      {
+        "timestamp": "2026-04-16T16:21:00Z",
+        "speed_ppm": 35.6,
+        "performance": 0.89
+      },
+      {
+        "timestamp": "2026-04-16T16:22:00Z",
+        "speed_ppm": 35.0,
+        "performance": 0.875
+      },
+      {
+        "timestamp": "2026-04-16T16:23:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-16T16:24:00Z",
+        "speed_ppm": 33.6,
+        "performance": 0.84
+      },
+      {
+        "timestamp": "2026-04-16T16:25:00Z",
+        "speed_ppm": 35.4,
+        "performance": 0.885
+      },
+      {
+        "timestamp": "2026-04-16T16:26:00Z",
+        "speed_ppm": 38.1,
+        "performance": 0.9525
+      },
+      {
+        "timestamp": "2026-04-16T16:27:00Z",
+        "speed_ppm": 38.5,
+        "performance": 0.9625
+      },
+      {
+        "timestamp": "2026-04-16T16:28:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-16T16:29:00Z",
+        "speed_ppm": 37.6,
+        "performance": 0.94
+      },
+      {
+        "timestamp": "2026-04-16T16:30:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-16T16:31:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-16T16:32:00Z",
+        "speed_ppm": 33.5,
+        "performance": 0.8375
+      },
+      {
+        "timestamp": "2026-04-16T16:33:00Z",
+        "speed_ppm": 32.2,
+        "performance": 0.805
+      },
+      {
+        "timestamp": "2026-04-16T16:34:00Z",
+        "speed_ppm": 34.8,
+        "performance": 0.87
+      },
+      {
+        "timestamp": "2026-04-16T16:35:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-16T16:36:00Z",
+        "speed_ppm": 34.8,
+        "performance": 0.87
+      },
+      {
+        "timestamp": "2026-04-16T16:37:00Z",
+        "speed_ppm": 37.7,
+        "performance": 0.9425
+      },
+      {
+        "timestamp": "2026-04-16T16:38:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-16T16:39:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-16T16:40:00Z",
+        "speed_ppm": 35.9,
+        "performance": 0.8975
+      },
+      {
+        "timestamp": "2026-04-16T16:41:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-16T16:42:00Z",
+        "speed_ppm": 32.7,
+        "performance": 0.8175
+      },
+      {
+        "timestamp": "2026-04-16T16:43:00Z",
+        "speed_ppm": 33.5,
+        "performance": 0.8375
+      },
+      {
+        "timestamp": "2026-04-16T16:44:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-16T16:45:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-16T16:46:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-16T16:47:00Z",
+        "speed_ppm": 37.9,
+        "performance": 0.9475
+      },
+      {
+        "timestamp": "2026-04-16T16:48:00Z",
+        "speed_ppm": 33.3,
+        "performance": 0.8325
+      },
+      {
+        "timestamp": "2026-04-16T16:49:00Z",
+        "speed_ppm": 32.6,
+        "performance": 0.815
+      },
+      {
+        "timestamp": "2026-04-16T16:50:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-16T16:51:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-16T16:52:00Z",
+        "speed_ppm": 36.0,
+        "performance": 0.9
+      },
+      {
+        "timestamp": "2026-04-16T16:53:00Z",
+        "speed_ppm": 39.3,
+        "performance": 0.9825
+      },
+      {
+        "timestamp": "2026-04-16T16:54:00Z",
+        "speed_ppm": 34.4,
+        "performance": 0.86
+      },
+      {
+        "timestamp": "2026-04-16T16:55:00Z",
+        "speed_ppm": 33.1,
+        "performance": 0.8275
+      },
+      {
+        "timestamp": "2026-04-16T16:56:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-16T16:57:00Z",
+        "speed_ppm": 38.6,
+        "performance": 0.965
+      },
+      {
+        "timestamp": "2026-04-16T16:58:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-16T16:59:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-16T17:00:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-16T17:01:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-16T17:02:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-16T17:03:00Z",
+        "speed_ppm": 35.4,
+        "performance": 0.885
+      },
+      {
+        "timestamp": "2026-04-16T17:04:00Z",
+        "speed_ppm": 35.8,
+        "performance": 0.895
+      },
+      {
+        "timestamp": "2026-04-16T17:05:00Z",
+        "speed_ppm": 35.4,
+        "performance": 0.885
+      },
+      {
+        "timestamp": "2026-04-16T17:06:00Z",
+        "speed_ppm": 39.0,
+        "performance": 0.975
+      },
+      {
+        "timestamp": "2026-04-16T17:07:00Z",
+        "speed_ppm": 33.7,
+        "performance": 0.8425
+      },
+      {
+        "timestamp": "2026-04-16T17:08:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-16T17:09:00Z",
+        "speed_ppm": 35.8,
+        "performance": 0.895
+      },
+      {
+        "timestamp": "2026-04-16T17:10:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-16T17:11:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-16T17:12:00Z",
+        "speed_ppm": 33.4,
+        "performance": 0.835
+      },
+      {
+        "timestamp": "2026-04-16T17:13:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-16T17:14:00Z",
+        "speed_ppm": 36.8,
+        "performance": 0.92
+      },
+      {
+        "timestamp": "2026-04-16T17:15:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-16T17:16:00Z",
+        "speed_ppm": 34.1,
+        "performance": 0.8525
+      },
+      {
+        "timestamp": "2026-04-16T17:17:00Z",
+        "speed_ppm": 33.1,
+        "performance": 0.8275
+      },
+      {
+        "timestamp": "2026-04-16T17:18:00Z",
+        "speed_ppm": 33.2,
+        "performance": 0.83
+      },
+      {
+        "timestamp": "2026-04-16T17:19:00Z",
+        "speed_ppm": 39.2,
+        "performance": 0.98
+      },
+      {
+        "timestamp": "2026-04-16T17:20:00Z",
+        "speed_ppm": 33.2,
+        "performance": 0.83
+      },
+      {
+        "timestamp": "2026-04-16T17:21:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-16T17:22:00Z",
+        "speed_ppm": 35.9,
+        "performance": 0.8975
+      },
+      {
+        "timestamp": "2026-04-16T17:23:00Z",
+        "speed_ppm": 35.2,
+        "performance": 0.88
+      },
+      {
+        "timestamp": "2026-04-16T17:24:00Z",
+        "speed_ppm": 33.1,
+        "performance": 0.8275
+      },
+      {
+        "timestamp": "2026-04-16T17:25:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-16T17:26:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-16T17:27:00Z",
+        "speed_ppm": 38.3,
+        "performance": 0.9575
+      },
+      {
+        "timestamp": "2026-04-16T17:28:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-16T17:29:00Z",
+        "speed_ppm": 35.8,
+        "performance": 0.895
+      },
+      {
+        "timestamp": "2026-04-16T17:30:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-16T17:31:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-16T17:32:00Z",
+        "speed_ppm": 39.4,
+        "performance": 0.985
+      },
+      {
+        "timestamp": "2026-04-16T17:33:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-16T17:34:00Z",
+        "speed_ppm": 35.4,
+        "performance": 0.885
+      },
+      {
+        "timestamp": "2026-04-16T17:35:00Z",
+        "speed_ppm": 35.6,
+        "performance": 0.89
+      },
+      {
+        "timestamp": "2026-04-16T17:36:00Z",
+        "speed_ppm": 34.6,
+        "performance": 0.865
+      },
+      {
+        "timestamp": "2026-04-16T17:37:00Z",
+        "speed_ppm": 33.7,
+        "performance": 0.8425
+      },
+      {
+        "timestamp": "2026-04-16T17:38:00Z",
+        "speed_ppm": 33.6,
+        "performance": 0.84
+      },
+      {
+        "timestamp": "2026-04-16T17:39:00Z",
+        "speed_ppm": 38.2,
+        "performance": 0.955
+      },
+      {
+        "timestamp": "2026-04-16T17:40:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-16T17:41:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-16T17:42:00Z",
+        "speed_ppm": 38.2,
+        "performance": 0.955
+      },
+      {
+        "timestamp": "2026-04-16T17:43:00Z",
+        "speed_ppm": 38.5,
+        "performance": 0.9625
+      },
+      {
+        "timestamp": "2026-04-16T17:44:00Z",
+        "speed_ppm": 35.8,
+        "performance": 0.895
+      },
+      {
+        "timestamp": "2026-04-16T17:45:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-16T17:46:00Z",
+        "speed_ppm": 34.7,
+        "performance": 0.8675
+      },
+      {
+        "timestamp": "2026-04-16T17:47:00Z",
+        "speed_ppm": 35.2,
+        "performance": 0.88
+      },
+      {
+        "timestamp": "2026-04-16T17:48:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-16T17:49:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-16T17:50:00Z",
+        "speed_ppm": 39.1,
+        "performance": 0.9775
+      },
+      {
+        "timestamp": "2026-04-16T17:51:00Z",
+        "speed_ppm": 34.6,
+        "performance": 0.865
+      },
+      {
+        "timestamp": "2026-04-16T17:52:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-16T17:53:00Z",
+        "speed_ppm": 38.2,
+        "performance": 0.955
+      },
+      {
+        "timestamp": "2026-04-16T17:54:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-16T17:55:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-16T17:56:00Z",
+        "speed_ppm": 32.0,
+        "performance": 0.8
+      },
+      {
+        "timestamp": "2026-04-16T17:57:00Z",
+        "speed_ppm": 32.4,
+        "performance": 0.81
+      },
+      {
+        "timestamp": "2026-04-16T17:58:00Z",
+        "speed_ppm": 38.0,
+        "performance": 0.95
+      },
+      {
+        "timestamp": "2026-04-16T17:59:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-16T18:00:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-16T18:01:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-16T18:02:00Z",
+        "speed_ppm": 38.5,
+        "performance": 0.9625
+      },
+      {
+        "timestamp": "2026-04-16T18:03:00Z",
+        "speed_ppm": 33.2,
+        "performance": 0.83
+      },
+      {
+        "timestamp": "2026-04-16T18:04:00Z",
+        "speed_ppm": 34.6,
+        "performance": 0.865
+      },
+      {
+        "timestamp": "2026-04-16T18:05:00Z",
+        "speed_ppm": 33.0,
+        "performance": 0.825
+      },
+      {
+        "timestamp": "2026-04-16T18:06:00Z",
+        "speed_ppm": 37.4,
+        "performance": 0.935
+      },
+      {
+        "timestamp": "2026-04-16T18:07:00Z",
+        "speed_ppm": 34.7,
+        "performance": 0.8675
+      },
+      {
+        "timestamp": "2026-04-16T18:08:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-16T18:09:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-16T18:10:00Z",
+        "speed_ppm": 35.4,
+        "performance": 0.885
+      },
+      {
+        "timestamp": "2026-04-16T18:11:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-16T18:12:00Z",
+        "speed_ppm": 37.7,
+        "performance": 0.9425
+      },
+      {
+        "timestamp": "2026-04-16T18:13:00Z",
+        "speed_ppm": 38.1,
+        "performance": 0.9525
+      },
+      {
+        "timestamp": "2026-04-16T18:14:00Z",
+        "speed_ppm": 35.2,
+        "performance": 0.88
+      },
+      {
+        "timestamp": "2026-04-16T18:15:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-16T18:16:00Z",
+        "speed_ppm": 35.0,
+        "performance": 0.875
+      },
+      {
+        "timestamp": "2026-04-16T18:17:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-16T18:18:00Z",
+        "speed_ppm": 34.8,
+        "performance": 0.87
+      },
+      {
+        "timestamp": "2026-04-16T18:19:00Z",
+        "speed_ppm": 35.8,
+        "performance": 0.895
+      },
+      {
+        "timestamp": "2026-04-16T18:20:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-16T18:21:00Z",
+        "speed_ppm": 38.4,
+        "performance": 0.96
+      },
+      {
+        "timestamp": "2026-04-16T18:22:00Z",
+        "speed_ppm": 38.1,
+        "performance": 0.9525
+      },
+      {
+        "timestamp": "2026-04-16T18:23:00Z",
+        "speed_ppm": 33.8,
+        "performance": 0.845
+      },
+      {
+        "timestamp": "2026-04-16T18:24:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-16T18:25:00Z",
+        "speed_ppm": 32.6,
+        "performance": 0.815
+      },
+      {
+        "timestamp": "2026-04-16T18:26:00Z",
+        "speed_ppm": 37.9,
+        "performance": 0.9475
+      },
+      {
+        "timestamp": "2026-04-16T18:27:00Z",
+        "speed_ppm": 34.7,
+        "performance": 0.8675
+      },
+      {
+        "timestamp": "2026-04-16T18:28:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-16T18:29:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-16T18:30:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-16T18:31:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-16T18:32:00Z",
+        "speed_ppm": 37.6,
+        "performance": 0.94
+      },
+      {
+        "timestamp": "2026-04-16T18:33:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-16T18:34:00Z",
+        "speed_ppm": 36.8,
+        "performance": 0.92
+      },
+      {
+        "timestamp": "2026-04-16T18:35:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-16T18:36:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-16T18:37:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-16T18:38:00Z",
+        "speed_ppm": 39.1,
+        "performance": 0.9775
+      },
+      {
+        "timestamp": "2026-04-16T18:39:00Z",
+        "speed_ppm": 36.8,
+        "performance": 0.92
+      },
+      {
+        "timestamp": "2026-04-16T18:40:00Z",
+        "speed_ppm": 33.9,
+        "performance": 0.8475
+      },
+      {
+        "timestamp": "2026-04-16T18:41:00Z",
+        "speed_ppm": 36.8,
+        "performance": 0.92
+      },
+      {
+        "timestamp": "2026-04-16T18:42:00Z",
+        "speed_ppm": 37.4,
+        "performance": 0.935
+      },
+      {
+        "timestamp": "2026-04-16T18:43:00Z",
+        "speed_ppm": 35.8,
+        "performance": 0.895
+      },
+      {
+        "timestamp": "2026-04-16T18:44:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-16T18:45:00Z",
+        "speed_ppm": 39.1,
+        "performance": 0.9775
+      },
+      {
+        "timestamp": "2026-04-16T18:46:00Z",
+        "speed_ppm": 38.1,
+        "performance": 0.9525
+      },
+      {
+        "timestamp": "2026-04-16T18:47:00Z",
+        "speed_ppm": 38.8,
+        "performance": 0.97
+      },
+      {
+        "timestamp": "2026-04-16T18:48:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-16T18:49:00Z",
+        "speed_ppm": 32.3,
+        "performance": 0.8075
+      },
+      {
+        "timestamp": "2026-04-16T18:50:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-16T18:51:00Z",
+        "speed_ppm": 36.0,
+        "performance": 0.9
+      },
+      {
+        "timestamp": "2026-04-16T18:52:00Z",
+        "speed_ppm": 38.0,
+        "performance": 0.95
+      },
+      {
+        "timestamp": "2026-04-16T18:53:00Z",
+        "speed_ppm": 33.5,
+        "performance": 0.8375
+      },
+      {
+        "timestamp": "2026-04-16T18:54:00Z",
+        "speed_ppm": 38.2,
+        "performance": 0.955
+      },
+      {
+        "timestamp": "2026-04-16T18:55:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-16T18:56:00Z",
+        "speed_ppm": 33.0,
+        "performance": 0.825
+      },
+      {
+        "timestamp": "2026-04-16T18:57:00Z",
+        "speed_ppm": 38.1,
+        "performance": 0.9525
+      },
+      {
+        "timestamp": "2026-04-16T18:58:00Z",
+        "speed_ppm": 35.0,
+        "performance": 0.875
+      },
+      {
+        "timestamp": "2026-04-16T18:59:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-16T19:00:00Z",
+        "speed_ppm": 35.6,
+        "performance": 0.89
+      },
+      {
+        "timestamp": "2026-04-16T19:01:00Z",
+        "speed_ppm": 33.6,
+        "performance": 0.84
+      },
+      {
+        "timestamp": "2026-04-16T19:02:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-16T19:03:00Z",
+        "speed_ppm": 36.8,
+        "performance": 0.92
+      },
+      {
+        "timestamp": "2026-04-16T19:04:00Z",
+        "speed_ppm": 34.1,
+        "performance": 0.8525
+      },
+      {
+        "timestamp": "2026-04-16T19:05:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-16T19:06:00Z",
+        "speed_ppm": 33.8,
+        "performance": 0.845
+      },
+      {
+        "timestamp": "2026-04-16T19:07:00Z",
+        "speed_ppm": 34.7,
+        "performance": 0.8675
+      },
+      {
+        "timestamp": "2026-04-16T19:08:00Z",
+        "speed_ppm": 33.7,
+        "performance": 0.8425
+      },
+      {
+        "timestamp": "2026-04-16T19:09:00Z",
+        "speed_ppm": 33.9,
+        "performance": 0.8475
+      },
+      {
+        "timestamp": "2026-04-16T19:10:00Z",
+        "speed_ppm": 38.4,
+        "performance": 0.96
+      },
+      {
+        "timestamp": "2026-04-16T19:11:00Z",
+        "speed_ppm": 33.1,
+        "performance": 0.8275
+      },
+      {
+        "timestamp": "2026-04-16T19:12:00Z",
+        "speed_ppm": 38.1,
+        "performance": 0.9525
+      },
+      {
+        "timestamp": "2026-04-16T19:13:00Z",
+        "speed_ppm": 34.7,
+        "performance": 0.8675
+      },
+      {
+        "timestamp": "2026-04-16T19:14:00Z",
+        "speed_ppm": 33.7,
+        "performance": 0.8425
+      },
+      {
+        "timestamp": "2026-04-16T19:15:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-16T19:16:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-16T19:17:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-16T19:18:00Z",
+        "speed_ppm": 34.4,
+        "performance": 0.86
+      },
+      {
+        "timestamp": "2026-04-16T19:19:00Z",
+        "speed_ppm": 33.4,
+        "performance": 0.835
+      },
+      {
+        "timestamp": "2026-04-16T19:20:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-16T19:21:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-16T19:22:00Z",
+        "speed_ppm": 35.8,
+        "performance": 0.895
+      },
+      {
+        "timestamp": "2026-04-16T19:23:00Z",
+        "speed_ppm": 33.7,
+        "performance": 0.8425
+      },
+      {
+        "timestamp": "2026-04-16T19:24:00Z",
+        "speed_ppm": 37.9,
+        "performance": 0.9475
+      },
+      {
+        "timestamp": "2026-04-16T19:25:00Z",
+        "speed_ppm": 33.9,
+        "performance": 0.8475
+      },
+      {
+        "timestamp": "2026-04-16T19:26:00Z",
+        "speed_ppm": 34.1,
+        "performance": 0.8525
+      },
+      {
+        "timestamp": "2026-04-16T19:27:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-16T19:28:00Z",
+        "speed_ppm": 37.6,
+        "performance": 0.94
+      },
+      {
+        "timestamp": "2026-04-16T19:29:00Z",
+        "speed_ppm": 34.1,
+        "performance": 0.8525
+      },
+      {
+        "timestamp": "2026-04-16T19:30:00Z",
+        "speed_ppm": 33.4,
+        "performance": 0.835
+      },
+      {
+        "timestamp": "2026-04-16T19:31:00Z",
+        "speed_ppm": 36.4,
+        "performance": 0.91
+      },
+      {
+        "timestamp": "2026-04-16T19:32:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-16T19:33:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-16T19:34:00Z",
+        "speed_ppm": 35.8,
+        "performance": 0.895
+      },
+      {
+        "timestamp": "2026-04-16T19:35:00Z",
+        "speed_ppm": 39.3,
+        "performance": 0.9825
+      },
+      {
+        "timestamp": "2026-04-16T19:36:00Z",
+        "speed_ppm": 38.2,
+        "performance": 0.955
+      },
+      {
+        "timestamp": "2026-04-16T19:37:00Z",
+        "speed_ppm": 34.7,
+        "performance": 0.8675
+      },
+      {
+        "timestamp": "2026-04-16T19:38:00Z",
+        "speed_ppm": 33.5,
+        "performance": 0.8375
+      },
+      {
+        "timestamp": "2026-04-16T19:39:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-16T19:40:00Z",
+        "speed_ppm": 36.2,
+        "performance": 0.905
+      },
+      {
+        "timestamp": "2026-04-16T19:41:00Z",
+        "speed_ppm": 38.4,
+        "performance": 0.96
+      },
+      {
+        "timestamp": "2026-04-16T19:42:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-16T19:43:00Z",
+        "speed_ppm": 33.1,
+        "performance": 0.8275
+      },
+      {
+        "timestamp": "2026-04-16T19:44:00Z",
+        "speed_ppm": 36.8,
+        "performance": 0.92
+      },
+      {
+        "timestamp": "2026-04-16T19:45:00Z",
+        "speed_ppm": 35.4,
+        "performance": 0.885
+      },
+      {
+        "timestamp": "2026-04-16T19:46:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-16T19:47:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-16T19:48:00Z",
+        "speed_ppm": 38.4,
+        "performance": 0.96
+      },
+      {
+        "timestamp": "2026-04-16T19:49:00Z",
+        "speed_ppm": 36.8,
+        "performance": 0.92
+      },
+      {
+        "timestamp": "2026-04-16T19:50:00Z",
+        "speed_ppm": 33.3,
+        "performance": 0.8325
+      },
+      {
+        "timestamp": "2026-04-16T19:51:00Z",
+        "speed_ppm": 38.1,
+        "performance": 0.9525
+      },
+      {
+        "timestamp": "2026-04-16T19:52:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-16T19:53:00Z",
+        "speed_ppm": 34.9,
+        "performance": 0.8725
+      },
+      {
+        "timestamp": "2026-04-16T19:54:00Z",
+        "speed_ppm": 34.1,
+        "performance": 0.8525
+      },
+      {
+        "timestamp": "2026-04-16T19:55:00Z",
+        "speed_ppm": 31.8,
+        "performance": 0.795
+      },
+      {
+        "timestamp": "2026-04-16T19:56:00Z",
+        "speed_ppm": 30.5,
+        "performance": 0.7625
+      },
+      {
+        "timestamp": "2026-04-16T19:57:00Z",
+        "speed_ppm": 28.1,
+        "performance": 0.7025
+      },
+      {
+        "timestamp": "2026-04-16T19:58:00Z",
+        "speed_ppm": 27.5,
+        "performance": 0.6875
+      },
+      {
+        "timestamp": "2026-04-16T19:59:00Z",
+        "speed_ppm": 25.4,
+        "performance": 0.635
+      },
+      {
+        "timestamp": "2026-04-17T06:00:00Z",
+        "speed_ppm": 24.2,
+        "performance": 0.605
+      },
+      {
+        "timestamp": "2026-04-17T06:01:00Z",
+        "speed_ppm": 25.8,
+        "performance": 0.645
+      },
+      {
+        "timestamp": "2026-04-17T06:02:00Z",
+        "speed_ppm": 27.1,
+        "performance": 0.6775
+      },
+      {
+        "timestamp": "2026-04-17T06:03:00Z",
+        "speed_ppm": 28.9,
+        "performance": 0.7225
+      },
+      {
+        "timestamp": "2026-04-17T06:04:00Z",
+        "speed_ppm": 30.2,
+        "performance": 0.755
+      },
+      {
+        "timestamp": "2026-04-17T06:05:00Z",
+        "speed_ppm": 32.7,
+        "performance": 0.8175
+      },
+      {
+        "timestamp": "2026-04-17T06:06:00Z",
+        "speed_ppm": 34.1,
+        "performance": 0.8525
+      },
+      {
+        "timestamp": "2026-04-17T06:07:00Z",
+        "speed_ppm": 35.4,
+        "performance": 0.885
+      },
+      {
+        "timestamp": "2026-04-17T06:08:00Z",
+        "speed_ppm": 36.2,
+        "performance": 0.905
+      },
+      {
+        "timestamp": "2026-04-17T06:09:00Z",
+        "speed_ppm": 37.9,
+        "performance": 0.9475
+      },
+      {
+        "timestamp": "2026-04-17T06:10:00Z",
+        "speed_ppm": 34.4,
+        "performance": 0.86
+      },
+      {
+        "timestamp": "2026-04-17T06:11:00Z",
+        "speed_ppm": 33.1,
+        "performance": 0.8275
+      },
+      {
+        "timestamp": "2026-04-17T06:12:00Z",
+        "speed_ppm": 37.9,
+        "performance": 0.9475
+      },
+      {
+        "timestamp": "2026-04-17T06:13:00Z",
+        "speed_ppm": 37.8,
+        "performance": 0.945
+      },
+      {
+        "timestamp": "2026-04-17T06:14:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-17T06:15:00Z",
+        "speed_ppm": 34.6,
+        "performance": 0.865
+      },
+      {
+        "timestamp": "2026-04-17T06:16:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-17T06:17:00Z",
+        "speed_ppm": 34.9,
+        "performance": 0.8725
+      },
+      {
+        "timestamp": "2026-04-17T06:18:00Z",
+        "speed_ppm": 35.6,
+        "performance": 0.89
+      },
+      {
+        "timestamp": "2026-04-17T06:19:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-17T06:20:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-17T06:21:00Z",
+        "speed_ppm": 38.9,
+        "performance": 0.9725
+      },
+      {
+        "timestamp": "2026-04-17T06:22:00Z",
+        "speed_ppm": 36.0,
+        "performance": 0.9
+      },
+      {
+        "timestamp": "2026-04-17T06:23:00Z",
+        "speed_ppm": 33.8,
+        "performance": 0.845
+      },
+      {
+        "timestamp": "2026-04-17T06:24:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-17T06:25:00Z",
+        "speed_ppm": 33.8,
+        "performance": 0.845
+      },
+      {
+        "timestamp": "2026-04-17T06:26:00Z",
+        "speed_ppm": 34.4,
+        "performance": 0.86
+      },
+      {
+        "timestamp": "2026-04-17T06:27:00Z",
+        "speed_ppm": 33.3,
+        "performance": 0.8325
+      },
+      {
+        "timestamp": "2026-04-17T06:28:00Z",
+        "speed_ppm": 34.7,
+        "performance": 0.8675
+      },
+      {
+        "timestamp": "2026-04-17T06:29:00Z",
+        "speed_ppm": 33.6,
+        "performance": 0.84
+      },
+      {
+        "timestamp": "2026-04-17T06:30:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-17T06:31:00Z",
+        "speed_ppm": 33.7,
+        "performance": 0.8425
+      },
+      {
+        "timestamp": "2026-04-17T06:32:00Z",
+        "speed_ppm": 35.2,
+        "performance": 0.88
+      },
+      {
+        "timestamp": "2026-04-17T06:33:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-17T06:34:00Z",
+        "speed_ppm": 32.7,
+        "performance": 0.8175
+      },
+      {
+        "timestamp": "2026-04-17T06:35:00Z",
+        "speed_ppm": 33.5,
+        "performance": 0.8375
+      },
+      {
+        "timestamp": "2026-04-17T06:36:00Z",
+        "speed_ppm": 37.4,
+        "performance": 0.935
+      },
+      {
+        "timestamp": "2026-04-17T06:37:00Z",
+        "speed_ppm": 34.1,
+        "performance": 0.8525
+      },
+      {
+        "timestamp": "2026-04-17T06:38:00Z",
+        "speed_ppm": 35.0,
+        "performance": 0.875
+      },
+      {
+        "timestamp": "2026-04-17T06:39:00Z",
+        "speed_ppm": 34.4,
+        "performance": 0.86
+      },
+      {
+        "timestamp": "2026-04-17T06:40:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-17T06:41:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-17T06:42:00Z",
+        "speed_ppm": 36.3,
+        "performance": 0.9075
+      },
+      {
+        "timestamp": "2026-04-17T06:43:00Z",
+        "speed_ppm": 32.5,
+        "performance": 0.8125
+      },
+      {
+        "timestamp": "2026-04-17T06:44:00Z",
+        "speed_ppm": 33.3,
+        "performance": 0.8325
+      },
+      {
+        "timestamp": "2026-04-17T06:45:00Z",
+        "speed_ppm": 34.7,
+        "performance": 0.8675
+      },
+      {
+        "timestamp": "2026-04-17T06:46:00Z",
+        "speed_ppm": 34.6,
+        "performance": 0.865
+      },
+      {
+        "timestamp": "2026-04-17T06:47:00Z",
+        "speed_ppm": 35.6,
+        "performance": 0.89
+      },
+      {
+        "timestamp": "2026-04-17T06:48:00Z",
+        "speed_ppm": 33.9,
+        "performance": 0.8475
+      },
+      {
+        "timestamp": "2026-04-17T06:49:00Z",
+        "speed_ppm": 34.9,
+        "performance": 0.8725
+      },
+      {
+        "timestamp": "2026-04-17T06:50:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-17T06:51:00Z",
+        "speed_ppm": 38.5,
+        "performance": 0.9625
+      },
+      {
+        "timestamp": "2026-04-17T06:52:00Z",
+        "speed_ppm": 33.5,
+        "performance": 0.8375
+      },
+      {
+        "timestamp": "2026-04-17T06:53:00Z",
+        "speed_ppm": 33.8,
+        "performance": 0.845
+      },
+      {
+        "timestamp": "2026-04-17T06:54:00Z",
+        "speed_ppm": 35.8,
+        "performance": 0.895
+      },
+      {
+        "timestamp": "2026-04-17T06:55:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-17T06:56:00Z",
+        "speed_ppm": 33.0,
+        "performance": 0.825
+      },
+      {
+        "timestamp": "2026-04-17T06:57:00Z",
+        "speed_ppm": 32.5,
+        "performance": 0.8125
+      },
+      {
+        "timestamp": "2026-04-17T06:58:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-17T06:59:00Z",
+        "speed_ppm": 38.0,
+        "performance": 0.95
+      },
+      {
+        "timestamp": "2026-04-17T07:00:00Z",
+        "speed_ppm": 37.8,
+        "performance": 0.945
+      },
+      {
+        "timestamp": "2026-04-17T07:01:00Z",
+        "speed_ppm": 33.7,
+        "performance": 0.8425
+      },
+      {
+        "timestamp": "2026-04-17T07:02:00Z",
+        "speed_ppm": 34.9,
+        "performance": 0.8725
+      },
+      {
+        "timestamp": "2026-04-17T07:03:00Z",
+        "speed_ppm": 34.4,
+        "performance": 0.86
+      },
+      {
+        "timestamp": "2026-04-17T07:04:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-17T07:05:00Z",
+        "speed_ppm": 36.3,
+        "performance": 0.9075
+      },
+      {
+        "timestamp": "2026-04-17T07:06:00Z",
+        "speed_ppm": 38.6,
+        "performance": 0.965
+      },
+      {
+        "timestamp": "2026-04-17T07:07:00Z",
+        "speed_ppm": 34.8,
+        "performance": 0.87
+      },
+      {
+        "timestamp": "2026-04-17T07:08:00Z",
+        "speed_ppm": 36.8,
+        "performance": 0.92
+      },
+      {
+        "timestamp": "2026-04-17T07:09:00Z",
+        "speed_ppm": 34.4,
+        "performance": 0.86
+      },
+      {
+        "timestamp": "2026-04-17T07:10:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-17T07:11:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-17T07:12:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-17T07:13:00Z",
+        "speed_ppm": 35.8,
+        "performance": 0.895
+      },
+      {
+        "timestamp": "2026-04-17T07:14:00Z",
+        "speed_ppm": 34.6,
+        "performance": 0.865
+      },
+      {
+        "timestamp": "2026-04-17T07:15:00Z",
+        "speed_ppm": 37.7,
+        "performance": 0.9425
+      },
+      {
+        "timestamp": "2026-04-17T07:16:00Z",
+        "speed_ppm": 36.3,
+        "performance": 0.9075
+      },
+      {
+        "timestamp": "2026-04-17T07:17:00Z",
+        "speed_ppm": 37.8,
+        "performance": 0.945
+      },
+      {
+        "timestamp": "2026-04-17T07:18:00Z",
+        "speed_ppm": 33.0,
+        "performance": 0.825
+      },
+      {
+        "timestamp": "2026-04-17T07:19:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-17T07:20:00Z",
+        "speed_ppm": 33.5,
+        "performance": 0.8375
+      },
+      {
+        "timestamp": "2026-04-17T07:21:00Z",
+        "speed_ppm": 35.6,
+        "performance": 0.89
+      },
+      {
+        "timestamp": "2026-04-17T07:22:00Z",
+        "speed_ppm": 33.7,
+        "performance": 0.8425
+      },
+      {
+        "timestamp": "2026-04-17T07:23:00Z",
+        "speed_ppm": 38.7,
+        "performance": 0.9675
+      },
+      {
+        "timestamp": "2026-04-17T07:24:00Z",
+        "speed_ppm": 38.4,
+        "performance": 0.96
+      },
+      {
+        "timestamp": "2026-04-17T07:25:00Z",
+        "speed_ppm": 35.9,
+        "performance": 0.8975
+      },
+      {
+        "timestamp": "2026-04-17T07:26:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-17T07:27:00Z",
+        "speed_ppm": 38.0,
+        "performance": 0.95
+      },
+      {
+        "timestamp": "2026-04-17T07:28:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-17T07:29:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-17T07:30:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-17T07:31:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-17T07:32:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-17T07:33:00Z",
+        "speed_ppm": 36.8,
+        "performance": 0.92
+      },
+      {
+        "timestamp": "2026-04-17T07:34:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-17T07:35:00Z",
+        "speed_ppm": 34.9,
+        "performance": 0.8725
+      },
+      {
+        "timestamp": "2026-04-17T07:36:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-17T07:37:00Z",
+        "speed_ppm": 34.9,
+        "performance": 0.8725
+      },
+      {
+        "timestamp": "2026-04-17T07:38:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-17T07:39:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-17T07:40:00Z",
+        "speed_ppm": 32.5,
+        "performance": 0.8125
+      },
+      {
+        "timestamp": "2026-04-17T07:41:00Z",
+        "speed_ppm": 33.2,
+        "performance": 0.83
+      },
+      {
+        "timestamp": "2026-04-17T07:42:00Z",
+        "speed_ppm": 36.8,
+        "performance": 0.92
+      },
+      {
+        "timestamp": "2026-04-17T07:43:00Z",
+        "speed_ppm": 37.6,
+        "performance": 0.94
+      },
+      {
+        "timestamp": "2026-04-17T07:44:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-17T07:45:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-17T07:46:00Z",
+        "speed_ppm": 39.0,
+        "performance": 0.975
+      },
+      {
+        "timestamp": "2026-04-17T07:47:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-17T07:48:00Z",
+        "speed_ppm": 38.9,
+        "performance": 0.9725
+      },
+      {
+        "timestamp": "2026-04-17T07:49:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-17T07:50:00Z",
+        "speed_ppm": 38.3,
+        "performance": 0.9575
+      },
+      {
+        "timestamp": "2026-04-17T07:51:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-17T07:52:00Z",
+        "speed_ppm": 36.2,
+        "performance": 0.905
+      },
+      {
+        "timestamp": "2026-04-17T07:53:00Z",
+        "speed_ppm": 35.6,
+        "performance": 0.89
+      },
+      {
+        "timestamp": "2026-04-17T07:54:00Z",
+        "speed_ppm": 34.6,
+        "performance": 0.865
+      },
+      {
+        "timestamp": "2026-04-17T07:55:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-17T07:56:00Z",
+        "speed_ppm": 38.8,
+        "performance": 0.97
+      },
+      {
+        "timestamp": "2026-04-17T07:57:00Z",
+        "speed_ppm": 35.8,
+        "performance": 0.895
+      },
+      {
+        "timestamp": "2026-04-17T07:58:00Z",
+        "speed_ppm": 33.5,
+        "performance": 0.8375
+      },
+      {
+        "timestamp": "2026-04-17T07:59:00Z",
+        "speed_ppm": 38.6,
+        "performance": 0.965
+      },
+      {
+        "timestamp": "2026-04-17T08:00:00Z",
+        "speed_ppm": 38.3,
+        "performance": 0.9575
+      },
+      {
+        "timestamp": "2026-04-17T08:01:00Z",
+        "speed_ppm": 38.5,
+        "performance": 0.9625
+      },
+      {
+        "timestamp": "2026-04-17T08:02:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-17T08:03:00Z",
+        "speed_ppm": 33.4,
+        "performance": 0.835
+      },
+      {
+        "timestamp": "2026-04-17T08:04:00Z",
+        "speed_ppm": 38.0,
+        "performance": 0.95
+      },
+      {
+        "timestamp": "2026-04-17T08:05:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-17T08:06:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-17T08:07:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-17T08:08:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-17T08:09:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-17T08:10:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-17T08:11:00Z",
+        "speed_ppm": 34.9,
+        "performance": 0.8725
+      },
+      {
+        "timestamp": "2026-04-17T08:12:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-17T08:13:00Z",
+        "speed_ppm": 36.4,
+        "performance": 0.91
+      },
+      {
+        "timestamp": "2026-04-17T08:14:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-17T08:15:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-17T08:16:00Z",
+        "speed_ppm": 39.0,
+        "performance": 0.975
+      },
+      {
+        "timestamp": "2026-04-17T08:17:00Z",
+        "speed_ppm": 37.8,
+        "performance": 0.945
+      },
+      {
+        "timestamp": "2026-04-17T08:18:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-17T08:19:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-17T08:20:00Z",
+        "speed_ppm": 33.0,
+        "performance": 0.825
+      },
+      {
+        "timestamp": "2026-04-17T08:21:00Z",
+        "speed_ppm": 38.1,
+        "performance": 0.9525
+      },
+      {
+        "timestamp": "2026-04-17T08:22:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-17T08:23:00Z",
+        "speed_ppm": 34.7,
+        "performance": 0.8675
+      },
+      {
+        "timestamp": "2026-04-17T08:24:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-17T08:25:00Z",
+        "speed_ppm": 38.6,
+        "performance": 0.965
+      },
+      {
+        "timestamp": "2026-04-17T08:26:00Z",
+        "speed_ppm": 35.4,
+        "performance": 0.885
+      },
+      {
+        "timestamp": "2026-04-17T08:27:00Z",
+        "speed_ppm": 33.5,
+        "performance": 0.8375
+      },
+      {
+        "timestamp": "2026-04-17T08:28:00Z",
+        "speed_ppm": 34.4,
+        "performance": 0.86
+      },
+      {
+        "timestamp": "2026-04-17T08:29:00Z",
+        "speed_ppm": 38.7,
+        "performance": 0.9675
+      },
+      {
+        "timestamp": "2026-04-17T08:30:00Z",
+        "speed_ppm": 38.5,
+        "performance": 0.9625
+      },
+      {
+        "timestamp": "2026-04-17T08:31:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-17T08:32:00Z",
+        "speed_ppm": 32.9,
+        "performance": 0.8225
+      },
+      {
+        "timestamp": "2026-04-17T08:33:00Z",
+        "speed_ppm": 34.9,
+        "performance": 0.8725
+      },
+      {
+        "timestamp": "2026-04-17T08:34:00Z",
+        "speed_ppm": 33.0,
+        "performance": 0.825
+      },
+      {
+        "timestamp": "2026-04-17T08:35:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-17T08:36:00Z",
+        "speed_ppm": 38.4,
+        "performance": 0.96
+      },
+      {
+        "timestamp": "2026-04-17T08:37:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-17T08:38:00Z",
+        "speed_ppm": 35.4,
+        "performance": 0.885
+      },
+      {
+        "timestamp": "2026-04-17T08:39:00Z",
+        "speed_ppm": 33.9,
+        "performance": 0.8475
+      },
+      {
+        "timestamp": "2026-04-17T08:40:00Z",
+        "speed_ppm": 31.5,
+        "performance": 0.7875
+      },
+      {
+        "timestamp": "2026-04-17T08:41:00Z",
+        "speed_ppm": 30.3,
+        "performance": 0.7575
+      },
+      {
+        "timestamp": "2026-04-17T08:42:00Z",
+        "speed_ppm": 28.2,
+        "performance": 0.705
+      },
+      {
+        "timestamp": "2026-04-17T08:43:00Z",
+        "speed_ppm": 27.5,
+        "performance": 0.6875
+      },
+      {
+        "timestamp": "2026-04-17T08:44:00Z",
+        "speed_ppm": 25.9,
+        "performance": 0.6475
+      },
+      {
+        "timestamp": "2026-04-17T09:30:00Z",
+        "speed_ppm": 24.0,
+        "performance": 0.6
+      },
+      {
+        "timestamp": "2026-04-17T09:31:00Z",
+        "speed_ppm": 25.7,
+        "performance": 0.6425
+      },
+      {
+        "timestamp": "2026-04-17T09:32:00Z",
+        "speed_ppm": 26.4,
+        "performance": 0.66
+      },
+      {
+        "timestamp": "2026-04-17T09:33:00Z",
+        "speed_ppm": 29.2,
+        "performance": 0.73
+      },
+      {
+        "timestamp": "2026-04-17T09:34:00Z",
+        "speed_ppm": 30.2,
+        "performance": 0.755
+      },
+      {
+        "timestamp": "2026-04-17T09:35:00Z",
+        "speed_ppm": 32.1,
+        "performance": 0.8025
+      },
+      {
+        "timestamp": "2026-04-17T09:36:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-17T09:37:00Z",
+        "speed_ppm": 34.8,
+        "performance": 0.87
+      },
+      {
+        "timestamp": "2026-04-17T09:38:00Z",
+        "speed_ppm": 37.4,
+        "performance": 0.935
+      },
+      {
+        "timestamp": "2026-04-17T09:39:00Z",
+        "speed_ppm": 38.5,
+        "performance": 0.9625
+      },
+      {
+        "timestamp": "2026-04-17T09:40:00Z",
+        "speed_ppm": 34.6,
+        "performance": 0.865
+      },
+      {
+        "timestamp": "2026-04-17T09:41:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-17T09:42:00Z",
+        "speed_ppm": 33.6,
+        "performance": 0.84
+      },
+      {
+        "timestamp": "2026-04-17T09:43:00Z",
+        "speed_ppm": 33.7,
+        "performance": 0.8425
+      },
+      {
+        "timestamp": "2026-04-17T09:44:00Z",
+        "speed_ppm": 39.2,
+        "performance": 0.98
+      },
+      {
+        "timestamp": "2026-04-17T09:45:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-17T09:46:00Z",
+        "speed_ppm": 38.3,
+        "performance": 0.9575
+      },
+      {
+        "timestamp": "2026-04-17T09:47:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-17T09:48:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-17T09:49:00Z",
+        "speed_ppm": 32.9,
+        "performance": 0.8225
+      },
+      {
+        "timestamp": "2026-04-17T09:50:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-17T09:51:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-17T09:52:00Z",
+        "speed_ppm": 37.4,
+        "performance": 0.935
+      },
+      {
+        "timestamp": "2026-04-17T09:53:00Z",
+        "speed_ppm": 32.6,
+        "performance": 0.815
+      },
+      {
+        "timestamp": "2026-04-17T09:54:00Z",
+        "speed_ppm": 36.2,
+        "performance": 0.905
+      },
+      {
+        "timestamp": "2026-04-17T09:55:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-17T09:56:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-17T09:57:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-17T09:58:00Z",
+        "speed_ppm": 33.3,
+        "performance": 0.8325
+      },
+      {
+        "timestamp": "2026-04-17T09:59:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-17T10:00:00Z",
+        "speed_ppm": 33.1,
+        "performance": 0.8275
+      },
+      {
+        "timestamp": "2026-04-17T10:01:00Z",
+        "speed_ppm": 38.5,
+        "performance": 0.9625
+      },
+      {
+        "timestamp": "2026-04-17T10:02:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-17T10:03:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-17T10:04:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-17T10:05:00Z",
+        "speed_ppm": 37.9,
+        "performance": 0.9475
+      },
+      {
+        "timestamp": "2026-04-17T10:06:00Z",
+        "speed_ppm": 37.9,
+        "performance": 0.9475
+      },
+      {
+        "timestamp": "2026-04-17T10:07:00Z",
+        "speed_ppm": 35.2,
+        "performance": 0.88
+      },
+      {
+        "timestamp": "2026-04-17T10:08:00Z",
+        "speed_ppm": 38.1,
+        "performance": 0.9525
+      },
+      {
+        "timestamp": "2026-04-17T10:09:00Z",
+        "speed_ppm": 34.1,
+        "performance": 0.8525
+      },
+      {
+        "timestamp": "2026-04-17T10:10:00Z",
+        "speed_ppm": 38.1,
+        "performance": 0.9525
+      },
+      {
+        "timestamp": "2026-04-17T10:11:00Z",
+        "speed_ppm": 38.4,
+        "performance": 0.96
+      },
+      {
+        "timestamp": "2026-04-17T10:12:00Z",
+        "speed_ppm": 36.2,
+        "performance": 0.905
+      },
+      {
+        "timestamp": "2026-04-17T10:13:00Z",
+        "speed_ppm": 32.5,
+        "performance": 0.8125
+      },
+      {
+        "timestamp": "2026-04-17T10:14:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-17T10:15:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-17T10:16:00Z",
+        "speed_ppm": 33.1,
+        "performance": 0.8275
+      },
+      {
+        "timestamp": "2026-04-17T10:17:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-17T10:18:00Z",
+        "speed_ppm": 35.2,
+        "performance": 0.88
+      },
+      {
+        "timestamp": "2026-04-17T10:19:00Z",
+        "speed_ppm": 32.6,
+        "performance": 0.815
+      },
+      {
+        "timestamp": "2026-04-17T10:20:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-17T10:21:00Z",
+        "speed_ppm": 35.9,
+        "performance": 0.8975
+      },
+      {
+        "timestamp": "2026-04-17T10:22:00Z",
+        "speed_ppm": 38.9,
+        "performance": 0.9725
+      },
+      {
+        "timestamp": "2026-04-17T10:23:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-17T10:24:00Z",
+        "speed_ppm": 35.2,
+        "performance": 0.88
+      },
+      {
+        "timestamp": "2026-04-17T10:25:00Z",
+        "speed_ppm": 37.8,
+        "performance": 0.945
+      },
+      {
+        "timestamp": "2026-04-17T10:26:00Z",
+        "speed_ppm": 33.0,
+        "performance": 0.825
+      },
+      {
+        "timestamp": "2026-04-17T10:27:00Z",
+        "speed_ppm": 32.5,
+        "performance": 0.8125
+      },
+      {
+        "timestamp": "2026-04-17T10:28:00Z",
+        "speed_ppm": 33.3,
+        "performance": 0.8325
+      },
+      {
+        "timestamp": "2026-04-17T10:29:00Z",
+        "speed_ppm": 34.6,
+        "performance": 0.865
+      },
+      {
+        "timestamp": "2026-04-17T10:30:00Z",
+        "speed_ppm": 35.6,
+        "performance": 0.89
+      },
+      {
+        "timestamp": "2026-04-17T10:31:00Z",
+        "speed_ppm": 38.0,
+        "performance": 0.95
+      },
+      {
+        "timestamp": "2026-04-17T10:32:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-17T10:33:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-17T10:34:00Z",
+        "speed_ppm": 35.0,
+        "performance": 0.875
+      },
+      {
+        "timestamp": "2026-04-17T10:35:00Z",
+        "speed_ppm": 33.2,
+        "performance": 0.83
+      },
+      {
+        "timestamp": "2026-04-17T10:36:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-17T10:37:00Z",
+        "speed_ppm": 36.2,
+        "performance": 0.905
+      },
+      {
+        "timestamp": "2026-04-17T10:38:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-17T10:39:00Z",
+        "speed_ppm": 39.3,
+        "performance": 0.9825
+      },
+      {
+        "timestamp": "2026-04-17T10:40:00Z",
+        "speed_ppm": 35.0,
+        "performance": 0.875
+      },
+      {
+        "timestamp": "2026-04-17T10:41:00Z",
+        "speed_ppm": 33.2,
+        "performance": 0.83
+      },
+      {
+        "timestamp": "2026-04-17T10:42:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-17T10:43:00Z",
+        "speed_ppm": 35.8,
+        "performance": 0.895
+      },
+      {
+        "timestamp": "2026-04-17T10:44:00Z",
+        "speed_ppm": 32.9,
+        "performance": 0.8225
+      },
+      {
+        "timestamp": "2026-04-17T10:45:00Z",
+        "speed_ppm": 33.8,
+        "performance": 0.845
+      },
+      {
+        "timestamp": "2026-04-17T10:46:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-17T10:47:00Z",
+        "speed_ppm": 38.4,
+        "performance": 0.96
+      },
+      {
+        "timestamp": "2026-04-17T10:48:00Z",
+        "speed_ppm": 37.6,
+        "performance": 0.94
+      },
+      {
+        "timestamp": "2026-04-17T10:49:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-17T10:50:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-17T10:51:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-17T10:52:00Z",
+        "speed_ppm": 33.7,
+        "performance": 0.8425
+      },
+      {
+        "timestamp": "2026-04-17T10:53:00Z",
+        "speed_ppm": 36.0,
+        "performance": 0.9
+      },
+      {
+        "timestamp": "2026-04-17T10:54:00Z",
+        "speed_ppm": 35.2,
+        "performance": 0.88
+      },
+      {
+        "timestamp": "2026-04-17T10:55:00Z",
+        "speed_ppm": 35.9,
+        "performance": 0.8975
+      },
+      {
+        "timestamp": "2026-04-17T10:56:00Z",
+        "speed_ppm": 32.6,
+        "performance": 0.815
+      },
+      {
+        "timestamp": "2026-04-17T10:57:00Z",
+        "speed_ppm": 39.0,
+        "performance": 0.975
+      },
+      {
+        "timestamp": "2026-04-17T10:58:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-17T10:59:00Z",
+        "speed_ppm": 32.3,
+        "performance": 0.8075
+      },
+      {
+        "timestamp": "2026-04-17T11:00:00Z",
+        "speed_ppm": 38.3,
+        "performance": 0.9575
+      },
+      {
+        "timestamp": "2026-04-17T11:01:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-17T11:02:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-17T11:03:00Z",
+        "speed_ppm": 36.0,
+        "performance": 0.9
+      },
+      {
+        "timestamp": "2026-04-17T11:04:00Z",
+        "speed_ppm": 34.4,
+        "performance": 0.86
+      },
+      {
+        "timestamp": "2026-04-17T11:05:00Z",
+        "speed_ppm": 38.2,
+        "performance": 0.955
+      },
+      {
+        "timestamp": "2026-04-17T11:06:00Z",
+        "speed_ppm": 33.3,
+        "performance": 0.8325
+      },
+      {
+        "timestamp": "2026-04-17T11:07:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-17T11:08:00Z",
+        "speed_ppm": 34.6,
+        "performance": 0.865
+      },
+      {
+        "timestamp": "2026-04-17T11:09:00Z",
+        "speed_ppm": 38.0,
+        "performance": 0.95
+      },
+      {
+        "timestamp": "2026-04-17T11:10:00Z",
+        "speed_ppm": 38.4,
+        "performance": 0.96
+      },
+      {
+        "timestamp": "2026-04-17T11:11:00Z",
+        "speed_ppm": 36.3,
+        "performance": 0.9075
+      },
+      {
+        "timestamp": "2026-04-17T11:12:00Z",
+        "speed_ppm": 36.4,
+        "performance": 0.91
+      },
+      {
+        "timestamp": "2026-04-17T11:13:00Z",
+        "speed_ppm": 36.3,
+        "performance": 0.9075
+      },
+      {
+        "timestamp": "2026-04-17T11:14:00Z",
+        "speed_ppm": 36.4,
+        "performance": 0.91
+      },
+      {
+        "timestamp": "2026-04-17T11:15:00Z",
+        "speed_ppm": 34.8,
+        "performance": 0.87
+      },
+      {
+        "timestamp": "2026-04-17T11:16:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-17T11:17:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-17T11:18:00Z",
+        "speed_ppm": 36.2,
+        "performance": 0.905
+      },
+      {
+        "timestamp": "2026-04-17T11:19:00Z",
+        "speed_ppm": 33.0,
+        "performance": 0.825
+      },
+      {
+        "timestamp": "2026-04-17T11:20:00Z",
+        "speed_ppm": 36.0,
+        "performance": 0.9
+      },
+      {
+        "timestamp": "2026-04-17T11:21:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-17T11:22:00Z",
+        "speed_ppm": 34.9,
+        "performance": 0.8725
+      },
+      {
+        "timestamp": "2026-04-17T11:23:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-17T11:24:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-17T11:25:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-17T11:26:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-17T11:27:00Z",
+        "speed_ppm": 33.3,
+        "performance": 0.8325
+      },
+      {
+        "timestamp": "2026-04-17T11:28:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-17T11:29:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-17T11:30:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-17T11:31:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-17T11:32:00Z",
+        "speed_ppm": 39.0,
+        "performance": 0.975
+      },
+      {
+        "timestamp": "2026-04-17T11:33:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-17T11:34:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-17T11:35:00Z",
+        "speed_ppm": 34.4,
+        "performance": 0.86
+      },
+      {
+        "timestamp": "2026-04-17T11:36:00Z",
+        "speed_ppm": 33.3,
+        "performance": 0.8325
+      },
+      {
+        "timestamp": "2026-04-17T11:37:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-17T11:38:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-17T11:39:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-17T11:40:00Z",
+        "speed_ppm": 35.9,
+        "performance": 0.8975
+      },
+      {
+        "timestamp": "2026-04-17T11:41:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-17T11:42:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-17T11:43:00Z",
+        "speed_ppm": 32.9,
+        "performance": 0.8225
+      },
+      {
+        "timestamp": "2026-04-17T11:44:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-17T11:45:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-17T11:46:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-17T11:47:00Z",
+        "speed_ppm": 38.3,
+        "performance": 0.9575
+      },
+      {
+        "timestamp": "2026-04-17T11:48:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-17T11:49:00Z",
+        "speed_ppm": 38.0,
+        "performance": 0.95
+      },
+      {
+        "timestamp": "2026-04-17T11:50:00Z",
+        "speed_ppm": 36.0,
+        "performance": 0.9
+      },
+      {
+        "timestamp": "2026-04-17T11:51:00Z",
+        "speed_ppm": 36.8,
+        "performance": 0.92
+      },
+      {
+        "timestamp": "2026-04-17T11:52:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-17T11:53:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-17T11:54:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-17T11:55:00Z",
+        "speed_ppm": 37.7,
+        "performance": 0.9425
+      },
+      {
+        "timestamp": "2026-04-17T11:56:00Z",
+        "speed_ppm": 35.2,
+        "performance": 0.88
+      },
+      {
+        "timestamp": "2026-04-17T11:57:00Z",
+        "speed_ppm": 33.5,
+        "performance": 0.8375
+      },
+      {
+        "timestamp": "2026-04-17T11:58:00Z",
+        "speed_ppm": 38.0,
+        "performance": 0.95
+      },
+      {
+        "timestamp": "2026-04-17T11:59:00Z",
+        "speed_ppm": 35.4,
+        "performance": 0.885
+      },
+      {
+        "timestamp": "2026-04-17T12:00:00Z",
+        "speed_ppm": 38.4,
+        "performance": 0.96
+      },
+      {
+        "timestamp": "2026-04-17T12:01:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-17T12:02:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-17T12:03:00Z",
+        "speed_ppm": 34.9,
+        "performance": 0.8725
+      },
+      {
+        "timestamp": "2026-04-17T12:04:00Z",
+        "speed_ppm": 35.0,
+        "performance": 0.875
+      },
+      {
+        "timestamp": "2026-04-17T12:05:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-17T12:06:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-17T12:07:00Z",
+        "speed_ppm": 38.5,
+        "performance": 0.9625
+      },
+      {
+        "timestamp": "2026-04-17T12:08:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-17T12:09:00Z",
+        "speed_ppm": 38.2,
+        "performance": 0.955
+      },
+      {
+        "timestamp": "2026-04-17T12:10:00Z",
+        "speed_ppm": 35.9,
+        "performance": 0.8975
+      },
+      {
+        "timestamp": "2026-04-17T12:11:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-17T12:12:00Z",
+        "speed_ppm": 34.4,
+        "performance": 0.86
+      },
+      {
+        "timestamp": "2026-04-17T12:13:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-17T12:14:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-17T12:15:00Z",
+        "speed_ppm": 32.2,
+        "performance": 0.805
+      },
+      {
+        "timestamp": "2026-04-17T12:16:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-17T12:17:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-17T12:18:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-17T12:19:00Z",
+        "speed_ppm": 33.2,
+        "performance": 0.83
+      },
+      {
+        "timestamp": "2026-04-17T12:20:00Z",
+        "speed_ppm": 35.9,
+        "performance": 0.8975
+      },
+      {
+        "timestamp": "2026-04-17T12:21:00Z",
+        "speed_ppm": 33.0,
+        "performance": 0.825
+      },
+      {
+        "timestamp": "2026-04-17T12:22:00Z",
+        "speed_ppm": 38.1,
+        "performance": 0.9525
+      },
+      {
+        "timestamp": "2026-04-17T12:23:00Z",
+        "speed_ppm": 33.7,
+        "performance": 0.8425
+      },
+      {
+        "timestamp": "2026-04-17T12:24:00Z",
+        "speed_ppm": 32.8,
+        "performance": 0.82
+      },
+      {
+        "timestamp": "2026-04-17T12:25:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-17T12:26:00Z",
+        "speed_ppm": 35.4,
+        "performance": 0.885
+      },
+      {
+        "timestamp": "2026-04-17T12:27:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-17T12:28:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-17T12:29:00Z",
+        "speed_ppm": 34.1,
+        "performance": 0.8525
+      },
+      {
+        "timestamp": "2026-04-17T12:30:00Z",
+        "speed_ppm": 34.4,
+        "performance": 0.86
+      },
+      {
+        "timestamp": "2026-04-17T12:31:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-17T12:32:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-17T12:33:00Z",
+        "speed_ppm": 34.7,
+        "performance": 0.8675
+      },
+      {
+        "timestamp": "2026-04-17T12:34:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-17T12:35:00Z",
+        "speed_ppm": 36.3,
+        "performance": 0.9075
+      },
+      {
+        "timestamp": "2026-04-17T12:36:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-17T12:37:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-17T12:38:00Z",
+        "speed_ppm": 34.6,
+        "performance": 0.865
+      },
+      {
+        "timestamp": "2026-04-17T12:39:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-17T12:40:00Z",
+        "speed_ppm": 33.9,
+        "performance": 0.8475
+      },
+      {
+        "timestamp": "2026-04-17T12:41:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-17T12:42:00Z",
+        "speed_ppm": 38.5,
+        "performance": 0.9625
+      },
+      {
+        "timestamp": "2026-04-17T12:43:00Z",
+        "speed_ppm": 33.1,
+        "performance": 0.8275
+      },
+      {
+        "timestamp": "2026-04-17T12:44:00Z",
+        "speed_ppm": 35.8,
+        "performance": 0.895
+      },
+      {
+        "timestamp": "2026-04-17T12:45:00Z",
+        "speed_ppm": 38.7,
+        "performance": 0.9675
+      },
+      {
+        "timestamp": "2026-04-17T12:46:00Z",
+        "speed_ppm": 38.7,
+        "performance": 0.9675
+      },
+      {
+        "timestamp": "2026-04-17T12:47:00Z",
+        "speed_ppm": 34.1,
+        "performance": 0.8525
+      },
+      {
+        "timestamp": "2026-04-17T12:48:00Z",
+        "speed_ppm": 36.8,
+        "performance": 0.92
+      },
+      {
+        "timestamp": "2026-04-17T12:49:00Z",
+        "speed_ppm": 34.8,
+        "performance": 0.87
+      },
+      {
+        "timestamp": "2026-04-17T12:50:00Z",
+        "speed_ppm": 35.9,
+        "performance": 0.8975
+      },
+      {
+        "timestamp": "2026-04-17T12:51:00Z",
+        "speed_ppm": 39.0,
+        "performance": 0.975
+      },
+      {
+        "timestamp": "2026-04-17T12:52:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-17T12:53:00Z",
+        "speed_ppm": 34.9,
+        "performance": 0.8725
+      },
+      {
+        "timestamp": "2026-04-17T12:54:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-17T12:55:00Z",
+        "speed_ppm": 32.5,
+        "performance": 0.8125
+      },
+      {
+        "timestamp": "2026-04-17T12:56:00Z",
+        "speed_ppm": 30.1,
+        "performance": 0.7525
+      },
+      {
+        "timestamp": "2026-04-17T12:57:00Z",
+        "speed_ppm": 28.6,
+        "performance": 0.715
+      },
+      {
+        "timestamp": "2026-04-17T12:58:00Z",
+        "speed_ppm": 26.9,
+        "performance": 0.6725
+      },
+      {
+        "timestamp": "2026-04-17T12:59:00Z",
+        "speed_ppm": 25.1,
+        "performance": 0.6275
+      },
+      {
+        "timestamp": "2026-04-17T13:06:00Z",
+        "speed_ppm": 23.9,
+        "performance": 0.5975
+      },
+      {
+        "timestamp": "2026-04-17T13:07:00Z",
+        "speed_ppm": 25.5,
+        "performance": 0.6375
+      },
+      {
+        "timestamp": "2026-04-17T13:08:00Z",
+        "speed_ppm": 26.5,
+        "performance": 0.6625
+      },
+      {
+        "timestamp": "2026-04-17T13:09:00Z",
+        "speed_ppm": 29.2,
+        "performance": 0.73
+      },
+      {
+        "timestamp": "2026-04-17T13:10:00Z",
+        "speed_ppm": 31.1,
+        "performance": 0.7775
+      },
+      {
+        "timestamp": "2026-04-17T13:11:00Z",
+        "speed_ppm": 32.5,
+        "performance": 0.8125
+      },
+      {
+        "timestamp": "2026-04-17T13:12:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-17T13:13:00Z",
+        "speed_ppm": 35.2,
+        "performance": 0.88
+      },
+      {
+        "timestamp": "2026-04-17T13:14:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-17T13:15:00Z",
+        "speed_ppm": 38.2,
+        "performance": 0.955
+      },
+      {
+        "timestamp": "2026-04-17T13:16:00Z",
+        "speed_ppm": 38.8,
+        "performance": 0.97
+      },
+      {
+        "timestamp": "2026-04-17T13:17:00Z",
+        "speed_ppm": 33.6,
+        "performance": 0.84
+      },
+      {
+        "timestamp": "2026-04-17T13:18:00Z",
+        "speed_ppm": 38.3,
+        "performance": 0.9575
+      },
+      {
+        "timestamp": "2026-04-17T13:19:00Z",
+        "speed_ppm": 38.9,
+        "performance": 0.9725
+      },
+      {
+        "timestamp": "2026-04-17T13:20:00Z",
+        "speed_ppm": 32.8,
+        "performance": 0.82
+      },
+      {
+        "timestamp": "2026-04-17T13:21:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-17T13:22:00Z",
+        "speed_ppm": 38.7,
+        "performance": 0.9675
+      },
+      {
+        "timestamp": "2026-04-17T13:23:00Z",
+        "speed_ppm": 37.9,
+        "performance": 0.9475
+      },
+      {
+        "timestamp": "2026-04-17T13:24:00Z",
+        "speed_ppm": 35.4,
+        "performance": 0.885
+      },
+      {
+        "timestamp": "2026-04-17T13:25:00Z",
+        "speed_ppm": 34.4,
+        "performance": 0.86
+      },
+      {
+        "timestamp": "2026-04-17T13:26:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-17T13:27:00Z",
+        "speed_ppm": 37.9,
+        "performance": 0.9475
+      },
+      {
+        "timestamp": "2026-04-17T13:28:00Z",
+        "speed_ppm": 38.7,
+        "performance": 0.9675
+      },
+      {
+        "timestamp": "2026-04-17T13:29:00Z",
+        "speed_ppm": 33.5,
+        "performance": 0.8375
+      },
+      {
+        "timestamp": "2026-04-17T13:30:00Z",
+        "speed_ppm": 38.4,
+        "performance": 0.96
+      },
+      {
+        "timestamp": "2026-04-17T13:31:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-17T13:32:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-17T13:33:00Z",
+        "speed_ppm": 35.2,
+        "performance": 0.88
+      },
+      {
+        "timestamp": "2026-04-17T13:34:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-17T13:35:00Z",
+        "speed_ppm": 35.7,
+        "performance": 0.8925
+      },
+      {
+        "timestamp": "2026-04-17T13:36:00Z",
+        "speed_ppm": 34.7,
+        "performance": 0.8675
+      },
+      {
+        "timestamp": "2026-04-17T13:37:00Z",
+        "speed_ppm": 38.3,
+        "performance": 0.9575
+      },
+      {
+        "timestamp": "2026-04-17T13:38:00Z",
+        "speed_ppm": 36.2,
+        "performance": 0.905
+      },
+      {
+        "timestamp": "2026-04-17T13:39:00Z",
+        "speed_ppm": 37.6,
+        "performance": 0.94
+      },
+      {
+        "timestamp": "2026-04-17T13:40:00Z",
+        "speed_ppm": 38.5,
+        "performance": 0.9625
+      },
+      {
+        "timestamp": "2026-04-17T13:41:00Z",
+        "speed_ppm": 32.8,
+        "performance": 0.82
+      },
+      {
+        "timestamp": "2026-04-17T13:42:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-17T13:43:00Z",
+        "speed_ppm": 35.0,
+        "performance": 0.875
+      },
+      {
+        "timestamp": "2026-04-17T13:44:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-17T13:45:00Z",
+        "speed_ppm": 37.7,
+        "performance": 0.9425
+      },
+      {
+        "timestamp": "2026-04-17T13:46:00Z",
+        "speed_ppm": 38.3,
+        "performance": 0.9575
+      },
+      {
+        "timestamp": "2026-04-17T13:47:00Z",
+        "speed_ppm": 33.6,
+        "performance": 0.84
+      },
+      {
+        "timestamp": "2026-04-17T13:48:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-17T13:49:00Z",
+        "speed_ppm": 33.3,
+        "performance": 0.8325
+      },
+      {
+        "timestamp": "2026-04-17T13:50:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-17T13:51:00Z",
+        "speed_ppm": 38.5,
+        "performance": 0.9625
+      },
+      {
+        "timestamp": "2026-04-17T13:52:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-17T13:53:00Z",
+        "speed_ppm": 38.5,
+        "performance": 0.9625
+      },
+      {
+        "timestamp": "2026-04-17T13:54:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-17T13:55:00Z",
+        "speed_ppm": 33.4,
+        "performance": 0.835
+      },
+      {
+        "timestamp": "2026-04-17T13:56:00Z",
+        "speed_ppm": 33.7,
+        "performance": 0.8425
+      },
+      {
+        "timestamp": "2026-04-17T13:57:00Z",
+        "speed_ppm": 34.6,
+        "performance": 0.865
+      },
+      {
+        "timestamp": "2026-04-17T13:58:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-17T13:59:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-17T14:00:00Z",
+        "speed_ppm": 34.1,
+        "performance": 0.8525
+      },
+      {
+        "timestamp": "2026-04-17T14:01:00Z",
+        "speed_ppm": 38.9,
+        "performance": 0.9725
+      },
+      {
+        "timestamp": "2026-04-17T14:02:00Z",
+        "speed_ppm": 32.6,
+        "performance": 0.815
+      },
+      {
+        "timestamp": "2026-04-17T14:03:00Z",
+        "speed_ppm": 33.5,
+        "performance": 0.8375
+      },
+      {
+        "timestamp": "2026-04-17T14:04:00Z",
+        "speed_ppm": 36.8,
+        "performance": 0.92
+      },
+      {
+        "timestamp": "2026-04-17T14:05:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-17T14:06:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-17T14:07:00Z",
+        "speed_ppm": 36.3,
+        "performance": 0.9075
+      },
+      {
+        "timestamp": "2026-04-17T14:08:00Z",
+        "speed_ppm": 33.7,
+        "performance": 0.8425
+      },
+      {
+        "timestamp": "2026-04-17T14:09:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-17T14:10:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-17T14:11:00Z",
+        "speed_ppm": 35.4,
+        "performance": 0.885
+      },
+      {
+        "timestamp": "2026-04-17T14:12:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-17T14:13:00Z",
+        "speed_ppm": 37.8,
+        "performance": 0.945
+      },
+      {
+        "timestamp": "2026-04-17T14:14:00Z",
+        "speed_ppm": 36.4,
+        "performance": 0.91
+      },
+      {
+        "timestamp": "2026-04-17T14:15:00Z",
+        "speed_ppm": 37.8,
+        "performance": 0.945
+      },
+      {
+        "timestamp": "2026-04-17T14:16:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-17T14:17:00Z",
+        "speed_ppm": 33.3,
+        "performance": 0.8325
+      },
+      {
+        "timestamp": "2026-04-17T14:18:00Z",
+        "speed_ppm": 38.9,
+        "performance": 0.9725
+      },
+      {
+        "timestamp": "2026-04-17T14:19:00Z",
+        "speed_ppm": 38.3,
+        "performance": 0.9575
+      },
+      {
+        "timestamp": "2026-04-17T14:20:00Z",
+        "speed_ppm": 32.3,
+        "performance": 0.8075
+      },
+      {
+        "timestamp": "2026-04-17T14:21:00Z",
+        "speed_ppm": 37.9,
+        "performance": 0.9475
+      },
+      {
+        "timestamp": "2026-04-17T14:22:00Z",
+        "speed_ppm": 38.4,
+        "performance": 0.96
+      },
+      {
+        "timestamp": "2026-04-17T14:23:00Z",
+        "speed_ppm": 38.3,
+        "performance": 0.9575
+      },
+      {
+        "timestamp": "2026-04-17T14:24:00Z",
+        "speed_ppm": 35.8,
+        "performance": 0.895
+      },
+      {
+        "timestamp": "2026-04-17T14:25:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-17T14:26:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-17T14:27:00Z",
+        "speed_ppm": 36.2,
+        "performance": 0.905
+      },
+      {
+        "timestamp": "2026-04-17T14:28:00Z",
+        "speed_ppm": 35.2,
+        "performance": 0.88
+      },
+      {
+        "timestamp": "2026-04-17T14:29:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-17T14:30:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-17T14:31:00Z",
+        "speed_ppm": 33.0,
+        "performance": 0.825
+      },
+      {
+        "timestamp": "2026-04-17T14:32:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-17T14:33:00Z",
+        "speed_ppm": 35.4,
+        "performance": 0.885
+      },
+      {
+        "timestamp": "2026-04-17T14:34:00Z",
+        "speed_ppm": 37.7,
+        "performance": 0.9425
+      },
+      {
+        "timestamp": "2026-04-17T14:35:00Z",
+        "speed_ppm": 34.9,
+        "performance": 0.8725
+      },
+      {
+        "timestamp": "2026-04-17T14:36:00Z",
+        "speed_ppm": 39.1,
+        "performance": 0.9775
+      },
+      {
+        "timestamp": "2026-04-17T14:37:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-17T14:38:00Z",
+        "speed_ppm": 35.9,
+        "performance": 0.8975
+      },
+      {
+        "timestamp": "2026-04-17T14:39:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-17T14:40:00Z",
+        "speed_ppm": 31.3,
+        "performance": 0.7825
+      },
+      {
+        "timestamp": "2026-04-17T14:41:00Z",
+        "speed_ppm": 30.8,
+        "performance": 0.77
+      },
+      {
+        "timestamp": "2026-04-17T14:42:00Z",
+        "speed_ppm": 28.9,
+        "performance": 0.7225
+      },
+      {
+        "timestamp": "2026-04-17T14:43:00Z",
+        "speed_ppm": 27.1,
+        "performance": 0.6775
+      },
+      {
+        "timestamp": "2026-04-17T14:44:00Z",
+        "speed_ppm": 25.7,
+        "performance": 0.6425
+      },
+      {
+        "timestamp": "2026-04-17T14:51:00Z",
+        "speed_ppm": 24.2,
+        "performance": 0.605
+      },
+      {
+        "timestamp": "2026-04-17T14:52:00Z",
+        "speed_ppm": 26.3,
+        "performance": 0.6575
+      },
+      {
+        "timestamp": "2026-04-17T14:53:00Z",
+        "speed_ppm": 27.3,
+        "performance": 0.6825
+      },
+      {
+        "timestamp": "2026-04-17T14:54:00Z",
+        "speed_ppm": 28.8,
+        "performance": 0.72
+      },
+      {
+        "timestamp": "2026-04-17T14:55:00Z",
+        "speed_ppm": 30.2,
+        "performance": 0.755
+      },
+      {
+        "timestamp": "2026-04-17T14:56:00Z",
+        "speed_ppm": 32.0,
+        "performance": 0.8
+      },
+      {
+        "timestamp": "2026-04-17T14:57:00Z",
+        "speed_ppm": 33.1,
+        "performance": 0.8275
+      },
+      {
+        "timestamp": "2026-04-17T14:58:00Z",
+        "speed_ppm": 35.2,
+        "performance": 0.88
+      },
+      {
+        "timestamp": "2026-04-17T14:59:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-17T15:00:00Z",
+        "speed_ppm": 38.5,
+        "performance": 0.9625
+      },
+      {
+        "timestamp": "2026-04-17T15:01:00Z",
+        "speed_ppm": 35.7,
+        "performance": 0.8925
+      },
+      {
+        "timestamp": "2026-04-17T15:02:00Z",
+        "speed_ppm": 34.9,
+        "performance": 0.8725
+      },
+      {
+        "timestamp": "2026-04-17T15:03:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-17T15:04:00Z",
+        "speed_ppm": 36.2,
+        "performance": 0.905
+      },
+      {
+        "timestamp": "2026-04-17T15:05:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-17T15:06:00Z",
+        "speed_ppm": 33.5,
+        "performance": 0.8375
+      },
+      {
+        "timestamp": "2026-04-17T15:07:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-17T15:08:00Z",
+        "speed_ppm": 34.1,
+        "performance": 0.8525
+      },
+      {
+        "timestamp": "2026-04-17T15:09:00Z",
+        "speed_ppm": 37.9,
+        "performance": 0.9475
+      },
+      {
+        "timestamp": "2026-04-17T15:10:00Z",
+        "speed_ppm": 36.0,
+        "performance": 0.9
+      },
+      {
+        "timestamp": "2026-04-17T15:11:00Z",
+        "speed_ppm": 38.9,
+        "performance": 0.9725
+      },
+      {
+        "timestamp": "2026-04-17T15:12:00Z",
+        "speed_ppm": 38.0,
+        "performance": 0.95
+      },
+      {
+        "timestamp": "2026-04-17T15:13:00Z",
+        "speed_ppm": 33.9,
+        "performance": 0.8475
+      },
+      {
+        "timestamp": "2026-04-17T15:14:00Z",
+        "speed_ppm": 35.6,
+        "performance": 0.89
+      },
+      {
+        "timestamp": "2026-04-17T15:15:00Z",
+        "speed_ppm": 37.7,
+        "performance": 0.9425
+      },
+      {
+        "timestamp": "2026-04-17T15:16:00Z",
+        "speed_ppm": 35.9,
+        "performance": 0.8975
+      },
+      {
+        "timestamp": "2026-04-17T15:17:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-17T15:18:00Z",
+        "speed_ppm": 38.2,
+        "performance": 0.955
+      },
+      {
+        "timestamp": "2026-04-17T15:19:00Z",
+        "speed_ppm": 38.3,
+        "performance": 0.9575
+      },
+      {
+        "timestamp": "2026-04-17T15:20:00Z",
+        "speed_ppm": 36.4,
+        "performance": 0.91
+      },
+      {
+        "timestamp": "2026-04-17T15:21:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-17T15:22:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-17T15:23:00Z",
+        "speed_ppm": 32.9,
+        "performance": 0.8225
+      },
+      {
+        "timestamp": "2026-04-17T15:24:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-17T15:25:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-17T15:26:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-17T15:27:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-17T15:28:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-17T15:29:00Z",
+        "speed_ppm": 37.8,
+        "performance": 0.945
+      },
+      {
+        "timestamp": "2026-04-17T15:30:00Z",
+        "speed_ppm": 34.9,
+        "performance": 0.8725
+      },
+      {
+        "timestamp": "2026-04-17T15:31:00Z",
+        "speed_ppm": 38.4,
+        "performance": 0.96
+      },
+      {
+        "timestamp": "2026-04-17T15:32:00Z",
+        "speed_ppm": 40,
+        "performance": 1.0
+      },
+      {
+        "timestamp": "2026-04-17T15:33:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-17T15:34:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-17T15:35:00Z",
+        "speed_ppm": 38.1,
+        "performance": 0.9525
+      },
+      {
+        "timestamp": "2026-04-17T15:36:00Z",
+        "speed_ppm": 36.2,
+        "performance": 0.905
+      },
+      {
+        "timestamp": "2026-04-17T15:37:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-17T15:38:00Z",
+        "speed_ppm": 34.9,
+        "performance": 0.8725
+      },
+      {
+        "timestamp": "2026-04-17T15:39:00Z",
+        "speed_ppm": 36.4,
+        "performance": 0.91
+      },
+      {
+        "timestamp": "2026-04-17T15:40:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-17T15:41:00Z",
+        "speed_ppm": 37.8,
+        "performance": 0.945
+      },
+      {
+        "timestamp": "2026-04-17T15:42:00Z",
+        "speed_ppm": 37.9,
+        "performance": 0.9475
+      },
+      {
+        "timestamp": "2026-04-17T15:43:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-17T15:44:00Z",
+        "speed_ppm": 34.4,
+        "performance": 0.86
+      },
+      {
+        "timestamp": "2026-04-17T15:45:00Z",
+        "speed_ppm": 38.7,
+        "performance": 0.9675
+      },
+      {
+        "timestamp": "2026-04-17T15:46:00Z",
+        "speed_ppm": 36.0,
+        "performance": 0.9
+      },
+      {
+        "timestamp": "2026-04-17T15:47:00Z",
+        "speed_ppm": 34.9,
+        "performance": 0.8725
+      },
+      {
+        "timestamp": "2026-04-17T15:48:00Z",
+        "speed_ppm": 35.4,
+        "performance": 0.885
+      },
+      {
+        "timestamp": "2026-04-17T15:49:00Z",
+        "speed_ppm": 36.2,
+        "performance": 0.905
+      },
+      {
+        "timestamp": "2026-04-17T15:50:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-17T15:51:00Z",
+        "speed_ppm": 39.5,
+        "performance": 0.9875
+      },
+      {
+        "timestamp": "2026-04-17T15:52:00Z",
+        "speed_ppm": 36.3,
+        "performance": 0.9075
+      },
+      {
+        "timestamp": "2026-04-17T15:53:00Z",
+        "speed_ppm": 37.6,
+        "performance": 0.94
+      },
+      {
+        "timestamp": "2026-04-17T15:54:00Z",
+        "speed_ppm": 33.7,
+        "performance": 0.8425
+      },
+      {
+        "timestamp": "2026-04-17T15:55:00Z",
+        "speed_ppm": 37.7,
+        "performance": 0.9425
+      },
+      {
+        "timestamp": "2026-04-17T15:56:00Z",
+        "speed_ppm": 35.9,
+        "performance": 0.8975
+      },
+      {
+        "timestamp": "2026-04-17T15:57:00Z",
+        "speed_ppm": 32.9,
+        "performance": 0.8225
+      },
+      {
+        "timestamp": "2026-04-17T15:58:00Z",
+        "speed_ppm": 38.6,
+        "performance": 0.965
+      },
+      {
+        "timestamp": "2026-04-17T15:59:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-17T16:00:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-17T16:01:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-17T16:02:00Z",
+        "speed_ppm": 32.4,
+        "performance": 0.81
+      },
+      {
+        "timestamp": "2026-04-17T16:03:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-17T16:04:00Z",
+        "speed_ppm": 36.4,
+        "performance": 0.91
+      },
+      {
+        "timestamp": "2026-04-17T16:05:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-17T16:06:00Z",
+        "speed_ppm": 32.8,
+        "performance": 0.82
+      },
+      {
+        "timestamp": "2026-04-17T16:07:00Z",
+        "speed_ppm": 36.0,
+        "performance": 0.9
+      },
+      {
+        "timestamp": "2026-04-17T16:08:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-17T16:09:00Z",
+        "speed_ppm": 37.7,
+        "performance": 0.9425
+      },
+      {
+        "timestamp": "2026-04-17T16:10:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-17T16:11:00Z",
+        "speed_ppm": 37.4,
+        "performance": 0.935
+      },
+      {
+        "timestamp": "2026-04-17T16:12:00Z",
+        "speed_ppm": 37.0,
+        "performance": 0.925
+      },
+      {
+        "timestamp": "2026-04-17T16:13:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-17T16:14:00Z",
+        "speed_ppm": 33.8,
+        "performance": 0.845
+      },
+      {
+        "timestamp": "2026-04-17T16:15:00Z",
+        "speed_ppm": 32.3,
+        "performance": 0.8075
+      },
+      {
+        "timestamp": "2026-04-17T16:16:00Z",
+        "speed_ppm": 29.5,
+        "performance": 0.7375
+      },
+      {
+        "timestamp": "2026-04-17T16:17:00Z",
+        "speed_ppm": 28.6,
+        "performance": 0.715
+      },
+      {
+        "timestamp": "2026-04-17T16:18:00Z",
+        "speed_ppm": 27.1,
+        "performance": 0.6775
+      },
+      {
+        "timestamp": "2026-04-17T16:19:00Z",
+        "speed_ppm": 26.1,
+        "performance": 0.6525
+      },
+      {
+        "timestamp": "2026-04-17T16:24:00Z",
+        "speed_ppm": 23.6,
+        "performance": 0.59
+      },
+      {
+        "timestamp": "2026-04-17T16:25:00Z",
+        "speed_ppm": 26.0,
+        "performance": 0.65
+      },
+      {
+        "timestamp": "2026-04-17T16:26:00Z",
+        "speed_ppm": 25.8,
+        "performance": 0.645
+      },
+      {
+        "timestamp": "2026-04-17T16:27:00Z",
+        "speed_ppm": 28.2,
+        "performance": 0.705
+      },
+      {
+        "timestamp": "2026-04-17T16:28:00Z",
+        "speed_ppm": 30.5,
+        "performance": 0.7625
+      },
+      {
+        "timestamp": "2026-04-17T16:29:00Z",
+        "speed_ppm": 32.8,
+        "performance": 0.82
+      },
+      {
+        "timestamp": "2026-04-17T16:30:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-17T16:31:00Z",
+        "speed_ppm": 34.6,
+        "performance": 0.865
+      },
+      {
+        "timestamp": "2026-04-17T16:32:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-17T16:33:00Z",
+        "speed_ppm": 37.7,
+        "performance": 0.9425
+      },
+      {
+        "timestamp": "2026-04-17T16:34:00Z",
+        "speed_ppm": 32.9,
+        "performance": 0.8225
+      },
+      {
+        "timestamp": "2026-04-17T16:35:00Z",
+        "speed_ppm": 33.6,
+        "performance": 0.84
+      },
+      {
+        "timestamp": "2026-04-17T16:36:00Z",
+        "speed_ppm": 33.1,
+        "performance": 0.8275
+      },
+      {
+        "timestamp": "2026-04-17T16:37:00Z",
+        "speed_ppm": 35.9,
+        "performance": 0.8975
+      },
+      {
+        "timestamp": "2026-04-17T16:38:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-17T16:39:00Z",
+        "speed_ppm": 33.0,
+        "performance": 0.825
+      },
+      {
+        "timestamp": "2026-04-17T16:40:00Z",
+        "speed_ppm": 36.3,
+        "performance": 0.9075
+      },
+      {
+        "timestamp": "2026-04-17T16:41:00Z",
+        "speed_ppm": 38.1,
+        "performance": 0.9525
+      },
+      {
+        "timestamp": "2026-04-17T16:42:00Z",
+        "speed_ppm": 38.0,
+        "performance": 0.95
+      },
+      {
+        "timestamp": "2026-04-17T16:43:00Z",
+        "speed_ppm": 33.3,
+        "performance": 0.8325
+      },
+      {
+        "timestamp": "2026-04-17T16:44:00Z",
+        "speed_ppm": 38.9,
+        "performance": 0.9725
+      },
+      {
+        "timestamp": "2026-04-17T16:45:00Z",
+        "speed_ppm": 32.6,
+        "performance": 0.815
+      },
+      {
+        "timestamp": "2026-04-17T16:46:00Z",
+        "speed_ppm": 37.9,
+        "performance": 0.9475
+      },
+      {
+        "timestamp": "2026-04-17T16:47:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-17T16:48:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-17T16:49:00Z",
+        "speed_ppm": 32.8,
+        "performance": 0.82
+      },
+      {
+        "timestamp": "2026-04-17T16:50:00Z",
+        "speed_ppm": 33.8,
+        "performance": 0.845
+      },
+      {
+        "timestamp": "2026-04-17T16:51:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-17T16:52:00Z",
+        "speed_ppm": 37.8,
+        "performance": 0.945
+      },
+      {
+        "timestamp": "2026-04-17T16:53:00Z",
+        "speed_ppm": 34.4,
+        "performance": 0.86
+      },
+      {
+        "timestamp": "2026-04-17T16:54:00Z",
+        "speed_ppm": 38.6,
+        "performance": 0.965
+      },
+      {
+        "timestamp": "2026-04-17T16:55:00Z",
+        "speed_ppm": 38.1,
+        "performance": 0.9525
+      },
+      {
+        "timestamp": "2026-04-17T16:56:00Z",
+        "speed_ppm": 32.2,
+        "performance": 0.805
+      },
+      {
+        "timestamp": "2026-04-17T16:57:00Z",
+        "speed_ppm": 35.2,
+        "performance": 0.88
+      },
+      {
+        "timestamp": "2026-04-17T16:58:00Z",
+        "speed_ppm": 37.9,
+        "performance": 0.9475
+      },
+      {
+        "timestamp": "2026-04-17T16:59:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-17T17:00:00Z",
+        "speed_ppm": 32.7,
+        "performance": 0.8175
+      },
+      {
+        "timestamp": "2026-04-17T17:01:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-17T17:02:00Z",
+        "speed_ppm": 35.4,
+        "performance": 0.885
+      },
+      {
+        "timestamp": "2026-04-17T17:03:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-17T17:04:00Z",
+        "speed_ppm": 37.4,
+        "performance": 0.935
+      },
+      {
+        "timestamp": "2026-04-17T17:05:00Z",
+        "speed_ppm": 37.9,
+        "performance": 0.9475
+      },
+      {
+        "timestamp": "2026-04-17T17:06:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-17T17:07:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-17T17:08:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-17T17:09:00Z",
+        "speed_ppm": 33.0,
+        "performance": 0.825
+      },
+      {
+        "timestamp": "2026-04-17T17:10:00Z",
+        "speed_ppm": 32.7,
+        "performance": 0.8175
+      },
+      {
+        "timestamp": "2026-04-17T17:11:00Z",
+        "speed_ppm": 34.9,
+        "performance": 0.8725
+      },
+      {
+        "timestamp": "2026-04-17T17:12:00Z",
+        "speed_ppm": 33.8,
+        "performance": 0.845
+      },
+      {
+        "timestamp": "2026-04-17T17:13:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-17T17:14:00Z",
+        "speed_ppm": 35.7,
+        "performance": 0.8925
+      },
+      {
+        "timestamp": "2026-04-17T17:15:00Z",
+        "speed_ppm": 33.4,
+        "performance": 0.835
+      },
+      {
+        "timestamp": "2026-04-17T17:16:00Z",
+        "speed_ppm": 36.2,
+        "performance": 0.905
+      },
+      {
+        "timestamp": "2026-04-17T17:17:00Z",
+        "speed_ppm": 35.0,
+        "performance": 0.875
+      },
+      {
+        "timestamp": "2026-04-17T17:18:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-17T17:19:00Z",
+        "speed_ppm": 38.8,
+        "performance": 0.97
+      },
+      {
+        "timestamp": "2026-04-17T17:20:00Z",
+        "speed_ppm": 38.4,
+        "performance": 0.96
+      },
+      {
+        "timestamp": "2026-04-17T17:21:00Z",
+        "speed_ppm": 35.0,
+        "performance": 0.875
+      },
+      {
+        "timestamp": "2026-04-17T17:22:00Z",
+        "speed_ppm": 33.4,
+        "performance": 0.835
+      },
+      {
+        "timestamp": "2026-04-17T17:23:00Z",
+        "speed_ppm": 33.7,
+        "performance": 0.8425
+      },
+      {
+        "timestamp": "2026-04-17T17:24:00Z",
+        "speed_ppm": 34.9,
+        "performance": 0.8725
+      },
+      {
+        "timestamp": "2026-04-17T17:25:00Z",
+        "speed_ppm": 33.5,
+        "performance": 0.8375
+      },
+      {
+        "timestamp": "2026-04-17T17:26:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-17T17:27:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-17T17:28:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-17T17:29:00Z",
+        "speed_ppm": 38.8,
+        "performance": 0.97
+      },
+      {
+        "timestamp": "2026-04-17T17:30:00Z",
+        "speed_ppm": 34.1,
+        "performance": 0.8525
+      },
+      {
+        "timestamp": "2026-04-17T17:31:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-17T17:32:00Z",
+        "speed_ppm": 35.2,
+        "performance": 0.88
+      },
+      {
+        "timestamp": "2026-04-17T17:33:00Z",
+        "speed_ppm": 37.7,
+        "performance": 0.9425
+      },
+      {
+        "timestamp": "2026-04-17T17:34:00Z",
+        "speed_ppm": 33.1,
+        "performance": 0.8275
+      },
+      {
+        "timestamp": "2026-04-17T17:35:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-17T17:36:00Z",
+        "speed_ppm": 36.0,
+        "performance": 0.9
+      },
+      {
+        "timestamp": "2026-04-17T17:37:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-17T17:38:00Z",
+        "speed_ppm": 36.3,
+        "performance": 0.9075
+      },
+      {
+        "timestamp": "2026-04-17T17:39:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-17T17:40:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-17T17:41:00Z",
+        "speed_ppm": 33.0,
+        "performance": 0.825
+      },
+      {
+        "timestamp": "2026-04-17T17:42:00Z",
+        "speed_ppm": 35.7,
+        "performance": 0.8925
+      },
+      {
+        "timestamp": "2026-04-17T17:43:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-17T17:44:00Z",
+        "speed_ppm": 36.6,
+        "performance": 0.915
+      },
+      {
+        "timestamp": "2026-04-17T17:45:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-17T17:46:00Z",
+        "speed_ppm": 35.2,
+        "performance": 0.88
+      },
+      {
+        "timestamp": "2026-04-17T17:47:00Z",
+        "speed_ppm": 38.5,
+        "performance": 0.9625
+      },
+      {
+        "timestamp": "2026-04-17T17:48:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-17T17:49:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-17T17:50:00Z",
+        "speed_ppm": 33.8,
+        "performance": 0.845
+      },
+      {
+        "timestamp": "2026-04-17T17:51:00Z",
+        "speed_ppm": 37.7,
+        "performance": 0.9425
+      },
+      {
+        "timestamp": "2026-04-17T17:52:00Z",
+        "speed_ppm": 36.8,
+        "performance": 0.92
+      },
+      {
+        "timestamp": "2026-04-17T17:53:00Z",
+        "speed_ppm": 35.0,
+        "performance": 0.875
+      },
+      {
+        "timestamp": "2026-04-17T17:54:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-17T17:55:00Z",
+        "speed_ppm": 32.0,
+        "performance": 0.8
+      },
+      {
+        "timestamp": "2026-04-17T17:56:00Z",
+        "speed_ppm": 29.9,
+        "performance": 0.7475
+      },
+      {
+        "timestamp": "2026-04-17T17:57:00Z",
+        "speed_ppm": 29.1,
+        "performance": 0.7275
+      },
+      {
+        "timestamp": "2026-04-17T17:58:00Z",
+        "speed_ppm": 27.9,
+        "performance": 0.6975
+      },
+      {
+        "timestamp": "2026-04-17T17:59:00Z",
+        "speed_ppm": 25.2,
+        "performance": 0.63
+      },
+      {
+        "timestamp": "2026-04-17T18:05:00Z",
+        "speed_ppm": 23.1,
+        "performance": 0.5775
+      },
+      {
+        "timestamp": "2026-04-17T18:06:00Z",
+        "speed_ppm": 25.4,
+        "performance": 0.635
+      },
+      {
+        "timestamp": "2026-04-17T18:07:00Z",
+        "speed_ppm": 26.5,
+        "performance": 0.6625
+      },
+      {
+        "timestamp": "2026-04-17T18:08:00Z",
+        "speed_ppm": 29.6,
+        "performance": 0.74
+      },
+      {
+        "timestamp": "2026-04-17T18:09:00Z",
+        "speed_ppm": 29.7,
+        "performance": 0.7425
+      },
+      {
+        "timestamp": "2026-04-17T18:10:00Z",
+        "speed_ppm": 31.8,
+        "performance": 0.795
+      },
+      {
+        "timestamp": "2026-04-17T18:11:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-17T18:12:00Z",
+        "speed_ppm": 35.6,
+        "performance": 0.89
+      },
+      {
+        "timestamp": "2026-04-17T18:13:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-17T18:14:00Z",
+        "speed_ppm": 38.0,
+        "performance": 0.95
+      },
+      {
+        "timestamp": "2026-04-17T18:15:00Z",
+        "speed_ppm": 38.1,
+        "performance": 0.9525
+      },
+      {
+        "timestamp": "2026-04-17T18:16:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-17T18:17:00Z",
+        "speed_ppm": 35.2,
+        "performance": 0.88
+      },
+      {
+        "timestamp": "2026-04-17T18:18:00Z",
+        "speed_ppm": 34.1,
+        "performance": 0.8525
+      },
+      {
+        "timestamp": "2026-04-17T18:19:00Z",
+        "speed_ppm": 32.8,
+        "performance": 0.82
+      },
+      {
+        "timestamp": "2026-04-17T18:20:00Z",
+        "speed_ppm": 36.5,
+        "performance": 0.9125
+      },
+      {
+        "timestamp": "2026-04-17T18:21:00Z",
+        "speed_ppm": 35.8,
+        "performance": 0.895
+      },
+      {
+        "timestamp": "2026-04-17T18:22:00Z",
+        "speed_ppm": 34.9,
+        "performance": 0.8725
+      },
+      {
+        "timestamp": "2026-04-17T18:23:00Z",
+        "speed_ppm": 36.9,
+        "performance": 0.9225
+      },
+      {
+        "timestamp": "2026-04-17T18:24:00Z",
+        "speed_ppm": 34.6,
+        "performance": 0.865
+      },
+      {
+        "timestamp": "2026-04-17T18:25:00Z",
+        "speed_ppm": 33.4,
+        "performance": 0.835
+      },
+      {
+        "timestamp": "2026-04-17T18:26:00Z",
+        "speed_ppm": 38.9,
+        "performance": 0.9725
+      },
+      {
+        "timestamp": "2026-04-17T18:27:00Z",
+        "speed_ppm": 33.8,
+        "performance": 0.845
+      },
+      {
+        "timestamp": "2026-04-17T18:28:00Z",
+        "speed_ppm": 34.6,
+        "performance": 0.865
+      },
+      {
+        "timestamp": "2026-04-17T18:29:00Z",
+        "speed_ppm": 35.7,
+        "performance": 0.8925
+      },
+      {
+        "timestamp": "2026-04-17T18:30:00Z",
+        "speed_ppm": 36.2,
+        "performance": 0.905
+      },
+      {
+        "timestamp": "2026-04-17T18:31:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-17T18:32:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-17T18:33:00Z",
+        "speed_ppm": 38.4,
+        "performance": 0.96
+      },
+      {
+        "timestamp": "2026-04-17T18:34:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-17T18:35:00Z",
+        "speed_ppm": 37.6,
+        "performance": 0.94
+      },
+      {
+        "timestamp": "2026-04-17T18:36:00Z",
+        "speed_ppm": 35.5,
+        "performance": 0.8875
+      },
+      {
+        "timestamp": "2026-04-17T18:37:00Z",
+        "speed_ppm": 34.2,
+        "performance": 0.855
+      },
+      {
+        "timestamp": "2026-04-17T18:38:00Z",
+        "speed_ppm": 39.1,
+        "performance": 0.9775
+      },
+      {
+        "timestamp": "2026-04-17T18:39:00Z",
+        "speed_ppm": 33.9,
+        "performance": 0.8475
+      },
+      {
+        "timestamp": "2026-04-17T18:40:00Z",
+        "speed_ppm": 36.8,
+        "performance": 0.92
+      },
+      {
+        "timestamp": "2026-04-17T18:41:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-17T18:42:00Z",
+        "speed_ppm": 34.1,
+        "performance": 0.8525
+      },
+      {
+        "timestamp": "2026-04-17T18:43:00Z",
+        "speed_ppm": 35.8,
+        "performance": 0.895
+      },
+      {
+        "timestamp": "2026-04-17T18:44:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-17T18:45:00Z",
+        "speed_ppm": 37.4,
+        "performance": 0.935
+      },
+      {
+        "timestamp": "2026-04-17T18:46:00Z",
+        "speed_ppm": 33.2,
+        "performance": 0.83
+      },
+      {
+        "timestamp": "2026-04-17T18:47:00Z",
+        "speed_ppm": 38.2,
+        "performance": 0.955
+      },
+      {
+        "timestamp": "2026-04-17T18:48:00Z",
+        "speed_ppm": 36.0,
+        "performance": 0.9
+      },
+      {
+        "timestamp": "2026-04-17T18:49:00Z",
+        "speed_ppm": 34.8,
+        "performance": 0.87
+      },
+      {
+        "timestamp": "2026-04-17T18:50:00Z",
+        "speed_ppm": 36.2,
+        "performance": 0.905
+      },
+      {
+        "timestamp": "2026-04-17T18:51:00Z",
+        "speed_ppm": 35.9,
+        "performance": 0.8975
+      },
+      {
+        "timestamp": "2026-04-17T18:52:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-17T18:53:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-17T18:54:00Z",
+        "speed_ppm": 36.4,
+        "performance": 0.91
+      },
+      {
+        "timestamp": "2026-04-17T18:55:00Z",
+        "speed_ppm": 34.4,
+        "performance": 0.86
+      },
+      {
+        "timestamp": "2026-04-17T18:56:00Z",
+        "speed_ppm": 33.5,
+        "performance": 0.8375
+      },
+      {
+        "timestamp": "2026-04-17T18:57:00Z",
+        "speed_ppm": 33.4,
+        "performance": 0.835
+      },
+      {
+        "timestamp": "2026-04-17T18:58:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-17T18:59:00Z",
+        "speed_ppm": 35.6,
+        "performance": 0.89
+      },
+      {
+        "timestamp": "2026-04-17T19:00:00Z",
+        "speed_ppm": 35.2,
+        "performance": 0.88
+      },
+      {
+        "timestamp": "2026-04-17T19:01:00Z",
+        "speed_ppm": 33.4,
+        "performance": 0.835
+      },
+      {
+        "timestamp": "2026-04-17T19:02:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-17T19:03:00Z",
+        "speed_ppm": 38.3,
+        "performance": 0.9575
+      },
+      {
+        "timestamp": "2026-04-17T19:04:00Z",
+        "speed_ppm": 33.4,
+        "performance": 0.835
+      },
+      {
+        "timestamp": "2026-04-17T19:05:00Z",
+        "speed_ppm": 34.5,
+        "performance": 0.8625
+      },
+      {
+        "timestamp": "2026-04-17T19:06:00Z",
+        "speed_ppm": 35.0,
+        "performance": 0.875
+      },
+      {
+        "timestamp": "2026-04-17T19:07:00Z",
+        "speed_ppm": 33.5,
+        "performance": 0.8375
+      },
+      {
+        "timestamp": "2026-04-17T19:08:00Z",
+        "speed_ppm": 39.3,
+        "performance": 0.9825
+      },
+      {
+        "timestamp": "2026-04-17T19:09:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-17T19:10:00Z",
+        "speed_ppm": 35.3,
+        "performance": 0.8825
+      },
+      {
+        "timestamp": "2026-04-17T19:11:00Z",
+        "speed_ppm": 37.6,
+        "performance": 0.94
+      },
+      {
+        "timestamp": "2026-04-17T19:12:00Z",
+        "speed_ppm": 33.0,
+        "performance": 0.825
+      },
+      {
+        "timestamp": "2026-04-17T19:13:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-17T19:14:00Z",
+        "speed_ppm": 36.4,
+        "performance": 0.91
+      },
+      {
+        "timestamp": "2026-04-17T19:15:00Z",
+        "speed_ppm": 33.0,
+        "performance": 0.825
+      },
+      {
+        "timestamp": "2026-04-17T19:16:00Z",
+        "speed_ppm": 37.6,
+        "performance": 0.94
+      },
+      {
+        "timestamp": "2026-04-17T19:17:00Z",
+        "speed_ppm": 36.3,
+        "performance": 0.9075
+      },
+      {
+        "timestamp": "2026-04-17T19:18:00Z",
+        "speed_ppm": 37.6,
+        "performance": 0.94
+      },
+      {
+        "timestamp": "2026-04-17T19:19:00Z",
+        "speed_ppm": 37.1,
+        "performance": 0.9275
+      },
+      {
+        "timestamp": "2026-04-17T19:20:00Z",
+        "speed_ppm": 33.7,
+        "performance": 0.8425
+      },
+      {
+        "timestamp": "2026-04-17T19:21:00Z",
+        "speed_ppm": 35.7,
+        "performance": 0.8925
+      },
+      {
+        "timestamp": "2026-04-17T19:22:00Z",
+        "speed_ppm": 33.0,
+        "performance": 0.825
+      },
+      {
+        "timestamp": "2026-04-17T19:23:00Z",
+        "speed_ppm": 37.8,
+        "performance": 0.945
+      },
+      {
+        "timestamp": "2026-04-17T19:24:00Z",
+        "speed_ppm": 38.4,
+        "performance": 0.96
+      },
+      {
+        "timestamp": "2026-04-17T19:25:00Z",
+        "speed_ppm": 35.0,
+        "performance": 0.875
+      },
+      {
+        "timestamp": "2026-04-17T19:26:00Z",
+        "speed_ppm": 36.2,
+        "performance": 0.905
+      },
+      {
+        "timestamp": "2026-04-17T19:27:00Z",
+        "speed_ppm": 38.8,
+        "performance": 0.97
+      },
+      {
+        "timestamp": "2026-04-17T19:28:00Z",
+        "speed_ppm": 37.3,
+        "performance": 0.9325
+      },
+      {
+        "timestamp": "2026-04-17T19:29:00Z",
+        "speed_ppm": 35.9,
+        "performance": 0.8975
+      },
+      {
+        "timestamp": "2026-04-17T19:30:00Z",
+        "speed_ppm": 37.2,
+        "performance": 0.93
+      },
+      {
+        "timestamp": "2026-04-17T19:31:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-17T19:32:00Z",
+        "speed_ppm": 34.3,
+        "performance": 0.8575
+      },
+      {
+        "timestamp": "2026-04-17T19:33:00Z",
+        "speed_ppm": 32.9,
+        "performance": 0.8225
+      },
+      {
+        "timestamp": "2026-04-17T19:34:00Z",
+        "speed_ppm": 36.4,
+        "performance": 0.91
+      },
+      {
+        "timestamp": "2026-04-17T19:35:00Z",
+        "speed_ppm": 34.6,
+        "performance": 0.865
+      },
+      {
+        "timestamp": "2026-04-17T19:36:00Z",
+        "speed_ppm": 34.0,
+        "performance": 0.85
+      },
+      {
+        "timestamp": "2026-04-17T19:37:00Z",
+        "speed_ppm": 38.7,
+        "performance": 0.9675
+      },
+      {
+        "timestamp": "2026-04-17T19:38:00Z",
+        "speed_ppm": 33.3,
+        "performance": 0.8325
+      },
+      {
+        "timestamp": "2026-04-17T19:39:00Z",
+        "speed_ppm": 38.8,
+        "performance": 0.97
+      },
+      {
+        "timestamp": "2026-04-17T19:40:00Z",
+        "speed_ppm": 37.7,
+        "performance": 0.9425
+      },
+      {
+        "timestamp": "2026-04-17T19:41:00Z",
+        "speed_ppm": 38.7,
+        "performance": 0.9675
+      },
+      {
+        "timestamp": "2026-04-17T19:42:00Z",
+        "speed_ppm": 35.0,
+        "performance": 0.875
+      },
+      {
+        "timestamp": "2026-04-17T19:43:00Z",
+        "speed_ppm": 37.5,
+        "performance": 0.9375
+      },
+      {
+        "timestamp": "2026-04-17T19:44:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-17T19:45:00Z",
+        "speed_ppm": 35.4,
+        "performance": 0.885
+      },
+      {
+        "timestamp": "2026-04-17T19:46:00Z",
+        "speed_ppm": 35.1,
+        "performance": 0.8775
+      },
+      {
+        "timestamp": "2026-04-17T19:47:00Z",
+        "speed_ppm": 34.8,
+        "performance": 0.87
+      },
+      {
+        "timestamp": "2026-04-17T19:48:00Z",
+        "speed_ppm": 32.6,
+        "performance": 0.815
+      },
+      {
+        "timestamp": "2026-04-17T19:49:00Z",
+        "speed_ppm": 35.7,
+        "performance": 0.8925
+      },
+      {
+        "timestamp": "2026-04-17T19:50:00Z",
+        "speed_ppm": 36.2,
+        "performance": 0.905
+      },
+      {
+        "timestamp": "2026-04-17T19:51:00Z",
+        "speed_ppm": 38.8,
+        "performance": 0.97
+      },
+      {
+        "timestamp": "2026-04-17T19:52:00Z",
+        "speed_ppm": 36.7,
+        "performance": 0.9175
+      },
+      {
+        "timestamp": "2026-04-17T19:53:00Z",
+        "speed_ppm": 36.1,
+        "performance": 0.9025
+      },
+      {
+        "timestamp": "2026-04-17T19:54:00Z",
+        "speed_ppm": 33.6,
+        "performance": 0.84
+      },
+      {
+        "timestamp": "2026-04-17T19:55:00Z",
+        "speed_ppm": 31.9,
+        "performance": 0.7975
+      },
+      {
+        "timestamp": "2026-04-17T19:56:00Z",
+        "speed_ppm": 29.6,
+        "performance": 0.74
+      },
+      {
+        "timestamp": "2026-04-17T19:57:00Z",
+        "speed_ppm": 28.1,
+        "performance": 0.7025
+      },
+      {
+        "timestamp": "2026-04-17T19:58:00Z",
+        "speed_ppm": 27.4,
+        "performance": 0.685
+      },
+      {
+        "timestamp": "2026-04-17T19:59:00Z",
+        "speed_ppm": 25.5,
+        "performance": 0.6375
+      }
+    ],
+    "downtime_events": [
+      {
+        "id": "dt_001",
+        "cause": "Conveyor belt breakdown",
+        "count": 1,
+        "duration_minutes": 184
+      },
+      {
+        "id": "dt_002",
+        "cause": "Electrical issue",
+        "count": 2,
+        "duration_minutes": 128
+      },
+      {
+        "id": "dt_003",
+        "cause": "Waiting on products",
+        "count": 4,
+        "duration_minutes": 21
+      }
+    ]
+  }
+}
