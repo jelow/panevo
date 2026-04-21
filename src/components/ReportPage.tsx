@@ -12,20 +12,20 @@ interface Props {
 
 export function ReportPage({ report, onBack }: Props) {
   const { production_line, summary, timeline, performance_series, downtime_events } = report;
-  const startFmt = format(new Date(report.start), 'MMM d, yyyy');
-  const endFmt   = format(new Date(report.end),   'MMM d, yyyy');
+  const startFmt = format(new Date(report.start), 'MMM d, yyyy h:mm a');
+  const endFmt   = format(new Date(report.end),   'MMM d, yyyy h:mm a');
 
   return (
     <div className="report-wrap">
       <header className="report-header">
         <div className="report-header-inner">
           <div className="report-header-left">
-            <button className="btn-back" onClick={onBack} aria-label="Back to date selection">
+            <button className="btn-back btn-pill-outline" onClick={onBack} aria-label="Back to date selection">
               ← Back
             </button>
             <div>
               <h1 className="report-line-name">{production_line.name}</h1>
-              <p className="report-date-range">{startFmt} — {endFmt}</p>
+              <h2 className="report-date-range">{startFmt} — {endFmt}</h2>
             </div>
           </div>
           <div className="report-capacity-badge">

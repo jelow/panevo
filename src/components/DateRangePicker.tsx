@@ -25,13 +25,7 @@ export function DateRangePicker({ onSubmit, loading }: Props) {
     <div className="landing-wrap">
       <div className="landing-card">
         <div className="landing-logo">
-          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-label="Panevo logo">
-            <rect width="36" height="36" rx="8" fill="var(--color-primary)" />
-            <rect x="8" y="18" width="5" height="10" rx="1.5" fill="white" opacity="0.5" />
-            <rect x="15.5" y="12" width="5" height="16" rx="1.5" fill="white" opacity="0.75" />
-            <rect x="23" y="8" width="5" height="20" rx="1.5" fill="white" />
-          </svg>
-          <span className="landing-brand">Panevo</span>
+          <img src="/Panevo-Logo-300x72.png" alt="Panevo logo" className="landing-logo-img" />
         </div>
 
         <h1 className="landing-title">Production Line Report</h1>
