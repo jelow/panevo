@@ -25,12 +25,15 @@ export function ReportPage({ report, onBack }: Props) {
             </button>
             <div>
               <h1 className="report-line-name">{production_line.name}</h1>
+            </div>
+            <div className="report-date-range">
+              <h2>Capacity: {production_line.capacity} ppm</h2>
+            </div>
+            <div>
               <h2 className="report-date-range">{startFmt} — {endFmt}</h2>
             </div>
           </div>
-          <div className="report-capacity-badge">
-            Capacity: {production_line.capacity} ppm
-          </div>
+          
         </div>
       </header>
 
