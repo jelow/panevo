@@ -4,6 +4,7 @@ import {
   ReferenceArea, ResponsiveContainer, Brush, Legend,
 } from 'recharts';
 import { format } from 'date-fns';
+import { formatUTC } from '../utils';
 import { PerformancePoint, TimelineSegment } from '../types';
 
 interface Props {
@@ -25,9 +26,11 @@ const LINE_COLOR       = '#01696f';
 function CustomTooltip({ active, payload, label }: any) {
   if (!active || !payload?.length) return null;
   const d = payload[0]?.payload as ChartPoint;
+  const date = new Date(d.ts);
+  const utcTime = formatUTC(date, 'MMM d, HH:mm');
   return (
     <div className="chart-tooltip">
-      <p className="chart-tooltip-time">{format(new Date(d.ts), 'MMM d, HH:mm')}</p>
+      <p className="chart-tooltip-time">{utcTime} UTC</p>
       <p><strong>Performance:</strong> {(d.performance * 100).toFixed(1)}%</p>
       <p><strong>Speed:</strong> {d.speed_ppm.toFixed(1)} ppm</p>
     </div>
@@ -94,7 +97,7 @@ export function PerformanceChart({ series, timeline }: Props) {
     }
   }, [brushRange, data]);
 
-  const tickFormatter = (ts: number) => format(new Date(ts), 'HH:mm');
+  const tickFormatter = (ts: number) => formatUTC(new Date(ts), 'HH:mm');
   const xDomain: [number, number] = displayData.length
     ? [displayData[0].ts, displayData[displayData.length - 1].ts]
     : [0, 1];

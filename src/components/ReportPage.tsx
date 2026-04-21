@@ -3,7 +3,7 @@ import { Report } from '../types';
 import { SummaryStats } from './SummaryStats';
 import { PerformanceChart } from './PerformanceChart';
 import { DowntimeList } from './DowntimeList';
-import { format } from 'date-fns';
+import { formatUTC } from '../utils';
 
 interface Props {
   report: Report;
@@ -12,8 +12,8 @@ interface Props {
 
 export function ReportPage({ report, onBack }: Props) {
   const { production_line, summary, timeline, performance_series, downtime_events } = report;
-  const startFmt = format(new Date(report.start), 'MMM d, yyyy h:mm a');
-  const endFmt   = format(new Date(report.end),   'MMM d, yyyy h:mm a');
+  const startFmt = formatUTC(new Date(report.start), 'MMM d, yyyy');
+  const endFmt   = formatUTC(new Date(report.end),   'MMM d, yyyy');
 
   return (
     <div className="report-wrap">
