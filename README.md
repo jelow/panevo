@@ -14,30 +14,31 @@ A React + TypeScript single-page application for viewing production line perform
 ## Tech Stack
 
 - React 18 + TypeScript
+- Vite 5 (build tooling)
 - Recharts (charting)
 - date-fns (date formatting)
-- Create React App
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js 16+
+- Node.js 18+
 - npm 8+
 
 ### Install & Run
 
 ```bash
 npm install
-npm start
+npm run dev
 ```
 
-The app will open at [http://localhost:3000](http://localhost:3000).
+The app will open at [http://localhost:5173](http://localhost:5173).
 
-### Build for Production
+### Other Scripts
 
 ```bash
-npm run build
+npm run build      # Production build (outputs to dist/)
+npm run preview    # Preview the production build locally
 ```
 
 ## Mock Data
@@ -57,17 +58,25 @@ See `API_DOCUMENTATION.md` for the full response schema definition.
 ## Project Structure
 
 ```
-src/
-├── types.ts                    — TypeScript interfaces for the API response
-├── App.tsx                     — Root component, theme management, routing
-├── App.css                     — All component styles
-├── index.css                   — Global design tokens and base reset
-├── data/
-│   └── mockApi.ts              — Mock API fetch, caching, and date-range filtering
-└── components/
-    ├── DateRangePicker.tsx     — Landing page with date inputs
-    ├── ReportPage.tsx          — Report layout shell and header
-    ├── PerformanceChart.tsx    — Recharts performance line chart with downtime bands
-    ├── SummaryStats.tsx        — KPI summary cards
-    └── DowntimeList.tsx        — Ranked downtime events list
+panevo-report/
+├── index.html                      — Vite entry point (project root)
+├── vite.config.ts                  — Vite configuration
+├── tsconfig.json                   — TypeScript configuration
+├── package.json
+├── public/
+│   └── mockData.json               — Mock API response data
+└── src/
+    ├── types.ts                    — TypeScript interfaces for the API response
+    ├── App.tsx                     — Root component, theme management, routing
+    ├── App.css                     — All component styles
+    ├── index.css                   — Global design tokens and base reset
+    ├── index.tsx                   — Application entry point
+    ├── data/
+    │   └── mockApi.ts              — Mock API fetch, caching, and date-range filtering
+    └── components/
+        ├── DateRangePicker.tsx     — Landing page with date inputs
+        ├── ReportPage.tsx          — Report layout shell and header
+        ├── PerformanceChart.tsx    — Recharts performance line chart with downtime bands
+        ├── SummaryStats.tsx        — KPI summary cards
+        └── DowntimeList.tsx        — Ranked downtime events list
 ```
