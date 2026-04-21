@@ -51,6 +51,7 @@ export function PerformanceChart({ series, timeline }: Props) {
   const [refAreaRight, setRefAreaRight] = useState<number | null>(null);
   const [isSelecting, setIsSelecting]   = useState(false);
   const [zoomDomain, setZoomDomain]     = useState<[number, number] | null>(null);
+  const [brushRange, setBrushRange]     = useState<{ startIndex: number; endIndex: number } | null>(null);
 
   const displayData = useMemo(() => {
     if (!zoomDomain) return data;
@@ -80,6 +81,19 @@ export function PerformanceChart({ series, timeline }: Props) {
 
   const resetZoom = () => setZoomDomain(null);
 
+  const handleBrushChange = useCallback((brushState: any) => {
+    if (brushState?.startIndex !== undefined && brushState?.endIndex !== undefined) {
+      setBrushRange({ startIndex: brushState.startIndex, endIndex: brushState.endIndex });
+    }
+  }, []);
+
+  const applyBrushZoom = useCallback(() => {
+    if (brushRange && brushRange.startIndex < brushRange.endIndex && brushRange.startIndex >= 0 && brushRange.endIndex < data.length) {
+      const [l, r] = [data[brushRange.startIndex].ts, data[brushRange.endIndex].ts];
+      setZoomDomain([l, r]);
+    }
+  }, [brushRange, data]);
+
   const tickFormatter = (ts: number) => format(new Date(ts), 'HH:mm');
   const xDomain: [number, number] = displayData.length
     ? [displayData[0].ts, displayData[displayData.length - 1].ts]
@@ -89,12 +103,20 @@ export function PerformanceChart({ series, timeline }: Props) {
     <section className="section" aria-label="Performance chart">
       <div className="chart-header">
         <h2 className="section-title">Performance Over Time</h2>
-        {zoomDomain && (
-          <button className="btn-ghost" onClick={resetZoom}>Reset zoom</button>
-        )}
+        <div className="chart-header-buttons">
+          {brushRange && !zoomDomain && (
+            <button className="btn-primary" onClick={applyBrushZoom}>Apply zoom</button>
+          )}
+          {zoomDomain && (
+            <button className="btn-primary" onClick={() => { setZoomDomain(null); setBrushRange(null); }}>Reset</button>
+          )}
+        </div>
       </div>
-      {!zoomDomain && (
-        <p className="chart-hint">Click and drag on the chart to zoom into a time range.</p>
+      {!zoomDomain && brushRange && (
+        <p className="chart-hint">Click "Apply zoom" to zoom into your selection.</p>
+      )}
+      {!zoomDomain && !brushRange && (
+        <p className="chart-hint">Drag the sliders at the bottom to select a range, then click "Apply zoom".</p>
       )}
 
       <div className="chart-wrap" style={{ userSelect: 'none' }}>
@@ -176,6 +198,7 @@ export function PerformanceChart({ series, timeline }: Props) {
               stroke="var(--color-border)"
               fill="var(--color-surface)"
               travellerWidth={6}
+              onChange={handleBrushChange}
             />
           </ComposedChart>
         </ResponsiveContainer>
